@@ -4,7 +4,7 @@ description: >-
   this chapter.
 ---
 
-# Design and modeling principles
+# Design principles
 
 ## Energy Capabilities
 
