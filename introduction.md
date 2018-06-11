@@ -8,6 +8,8 @@ The energy transition from fossil to renewable requires a major change in the co
 
 The Energy System description Language \(ESDL\) is a modeling language created for modeling the components in an energy system and their relations towards each other. Furthermore ESDL is capable of expressing the dynamic behavior of components in the energy system. For instance the power consumption of an neighborhood. ESDL describes components by their basic functionality \(Energy Capabilities\), these are modeled in 5 abstract categories: Production, Consumption, Storage, Transport and Conversion. ESDL enables energy modelers to model a complex energy system in a generic way. The language is machine readable so makers of energy transition calculation tools and GIS applications can support ESDL in order to enforce the interoperability of their products.
 
+![](https://github.com/EnergyTransition/ESDL-gitbook/blob/master/Images/ESDL.JPG?raw=true)
+
 ## Application Areas of ESDL
 
 ESDL can be used for: 

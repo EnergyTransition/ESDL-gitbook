@@ -10,9 +10,13 @@ The first type of information is named the ‘energy system registration’, thi
 
 The second type of information is the ‘energy system potential’.  This information is also typically geo-oriented and describes the potential and constraints of the energy system to evolve. For example information about: areas where wind turbines can be installed, areas where geothermal sources can be found and areas that are suitable for district heating \(heat networks\). 
 
+![](https://github.com/EnergyTransition/ESDL-gitbook/blob/master/Images/Dutch%20Geo%20Potential.JPG?raw=true)
+
 ## Energy System Usage
 
 The third type of information is ‘energy system usage’. This type of information is providing insight on how the energy system is used over time. Typically this results in profiles or measurements for a certain duration of time. Examples of this information are: yearly energy consumption of a building, a profile of the production of a solarPV panel and a profile of the usage of a heat pump. This information describes the dynamic behavior of the energy system. 
+
+![](https://github.com/EnergyTransition/ESDL-gitbook/blob/master/Images/Repository%20Data.JPG?raw=true)
 
 ## Combining data
 
