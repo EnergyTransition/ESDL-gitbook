@@ -15,7 +15,7 @@ ESDL can be used for:
 * Energy transition calculation tools: common language for energy transition calculation tools. To describe inputs and outputs of those tools. 
 * Energy Information System: ESDL can be used as a basis for a central energy information system where the energy system of a certain region is registered. 
 * ESDL can be used as a language for \(local\) governments to model and share their \(local\) energy system. 
-* Monitoring evolution of an energy system: Furthermore, multiple ESDL snapshots of a certain area over time provide insight in the evolution of an energy system. So m
+* Monitoring evolution of an energy system: Furthermore, multiple ESDL snapshots of a certain area over time provide insight in the evolution of an energy system. 
 
 
 
