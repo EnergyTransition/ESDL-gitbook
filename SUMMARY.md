@@ -6,7 +6,6 @@
 * [Design principles](design-principles.md)
 * [Data types](data-types.md)
 * [How to use ESDL](how-to-use-esdl.md)
-* [Untitled](untitled-1.md)
 * [Tooling for ESDL](untitled.md)
 * [Examples](examples.md)
 
