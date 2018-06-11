@@ -2,7 +2,7 @@
 
 ## Models and descriptions
 
-## Levels, hous -&gt; country 
+## Levels, house -&gt; country 
 
 ## Geographic or non-geographic based models
 
