@@ -1,4 +1,4 @@
-# Combining geo-oriented data with time series data
+# Energy Data Modeling
 
 In order to fully understand how an energy system operates and how it can evolve, multiple types of information needs to be combined.  Information on how and where the energy system is installed, what the install base is, what the evolution potential is and how the energy system is used all form a part of the puzzle. This chapter describes these different types of data, a description on how they can be combined and modeled in ESDL follows in the next chapters.
 
