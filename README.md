@@ -8,7 +8,7 @@ description: >-
 
 This documentation contains the following chapters:
 
-* Introduction: General introduction into what ESDL is and for what purposes it can be used.
+* \[Introduction\]\(introduction.md\): General introduction into what ESDL is and for what purposes it can be used.
 * Energy Data Modeling: Explanation of the general concepts of Energy Data Modeling
 * ESDL concepts: Explanation of the what and why of different parts of the ESDL language
 * How to use ESDL: Explanation of how to use ESDL, practical tips
