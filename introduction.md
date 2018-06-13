@@ -10,12 +10,17 @@ The Energy System description Language \(ESDL\) is a modeling language created f
 
 ## Application Areas of ESDL
 
-ESDL can be used for: 
+ESDL can be used: 
 
-* Energy transition calculation tools: common language for energy transition calculation tools. To describe inputs and outputs of those tools. 
-* Energy Information System: ESDL can be used as a basis for a central energy information system where the energy system of a certain region is registered. 
-* ESDL can be used as a language for \(local\) governments to model and share their \(local\) energy system. 
-* Monitoring evolution of an energy system: Furthermore, multiple ESDL snapshots of a certain area over time provide insight in the evolution of an energy system. 
+* by energy transition calculation tools: common language for energy transition calculation tools. To describe inputs and outputs of those tools.   This allows for integration of multiple tools.
+* in an Energy Information System: ESDL can be used as a basis for a central energy information system where the energy system of a certain region is registered. 
+* as a language for \(local\) governments to model and share their \(local\) energy system. 
+* to monitor the evolution of an energy system: Furthermore, multiple ESDL snapshots of a certain area over time provide insight in the evolution of an energy system. 
+* as a format to share data relevant to energy systems or the energy transition. Examples:
+  * CO2 emissions per energy carrier
+  * Technology factsheets for specific components, brands, types \(e.g. a heatpump factsheet that describes its typical parameters\)
+  * Cost information of assets, or expected cost developments in future
+  * Standard configurations or templates of typical parts of the energy system \(e.g. a house with a heatpump, solar panels and an EV charging station\)
 
 
 

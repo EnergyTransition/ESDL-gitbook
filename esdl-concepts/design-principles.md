@@ -1,9 +1,3 @@
----
-description: >-
-  A description of the design and modeling principles of ESDL is provided in
-  this chapter.
----
-
 # Design principles
 
 ## Energy Capabilities
