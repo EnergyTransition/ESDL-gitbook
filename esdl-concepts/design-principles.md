@@ -30,7 +30,7 @@ ESDL supports the modeling of energy systems on detail levels such as: house, bu
 
 ## Example of modeling with energy capabilities
 
-An model of the energy system of the island of Ameland, a small island in the north of the Netherlands, is depicted in Figure 1. 
+An model of a possible future energy system of the island of Ameland, a small island in the north of the Netherlands, is depicted in Figure 1. 
 
 ![](https://github.com/EnergyTransition/ESDL-gitbook/blob/master/Images/Ameland.JPG?raw=true)
 
