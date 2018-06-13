@@ -8,7 +8,7 @@
   * [Data types](esdl-concepts/data-types/README.md)
     * [Energy System](esdl-concepts/data-types/energy-system.md)
     * [Areas](esdl-concepts/data-types/areas.md)
-    * [Items, Assets and EnergyAssets](esdl-concepts/data-types/items-assets-and-energyassets/README.md)
+    * [Items, Assets, EnergyAssets and Services](esdl-concepts/data-types/items-assets-and-energyassets/README.md)
       * [Overview of EnergyAssets](esdl-concepts/data-types/items-assets-and-energyassets/overview-of-energyassets.md)
     * [Profiles](esdl-concepts/data-types/profiles.md)
 * [How to use ESDL](how-to-use-esdl.md)
