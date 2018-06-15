@@ -8,15 +8,15 @@ There are vast amount of different assets in an energy system all having their s
 
 Some examples: 
 
-* Production: 	SolarPV panel, Wind Turbine, etc.
+* Production:           SolarPV panel, Wind Turbine, etc.
 * Consumption: 	Households electricity consumption, heat consumption of a city, etc.
-* Storage: 	Home battery, heat buffer, etc.
-* Transport:	District heating, electricity grid, etc.
-* Conversion:	Heat Pump, Transformer, Gas burner, etc.
+* Storage:          	Home battery, heat buffer, etc.
+* Transport:      	District heating, electricity grid, etc.
+* Conversion:   	Heat Pump, Transformer, Gas burner, etc.
 
 Describing the assets in terms of capabilities achieves two things that are very welcome. Firstly we can make an abstraction of an assets by only modeling characteristics that are relevant per capability. This results in an simplification for the user of ESDL since he now can approach different asset types in a similar way. For instance a PV panel \(Production\) can be approached in a similar way as a wind turbine \(Production\) with slightly different characteristics. This makes life easier for those who want to reason on energy systems \(evolution\) with calculation tools. 
 
-Secondly, every capability comes with a natural way of aggregation. For instance, if the consumption capability for every house in a street is defined \(for instance as electric power consumption/year\). Than the aggregated consumption capability of the whole street can be determined by calculating the sum of all the consumption capabilities. This is achieved by modeling all energy consumers as consumer capability. The following section describes the use of this aggregation in ESDL.
+Secondly, every capability comes with a natural way of aggregation. For instance, if the consumption capability for every house in a street is defined \(for instance as electric power consumption/year\), then the aggregated consumption capability of the whole street can be determined by calculating the sum of all the consumption capabilities. This is achieved by modeling all energy consumers as consumer capability. The following section describes the use of this aggregation in ESDL.
 
 ## Levels of aggregation
 
