@@ -14,6 +14,7 @@ The EMF gives us several tools for free compared to using UML:
 
 * Code generation. It can automatically generate Java-classes, XSD schema's and UML models from the ECore model.
 * Provide semantics for modeling concepts. These semantics are geared towards generating tools to read, visualize and edit your ESDL files. EMF provides two ways for these semantics: \(1\) a static version \(using the code generation facility, creating acutal files on disk\), and \(2\) a dynamic version that is in real-time created from the concepts you are modeling. This allows for direct feedback on the changes you make to the model as editors are instantly updated with these changes.
+* A graphical editor to manipulate the model.
 
 These properties make it easier to adopt ESDL, as this project not only provides an XML Schema for usage in energy transitions tools, letting the developers write XML-based ESDL-files themselves, but  also provide rich editors to manipulate ESDL-files.
 
