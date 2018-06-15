@@ -1,10 +1,8 @@
-# Contributing to the ESDL language
+# Setting up the Eclipse Modeling Tools
 
-To contribute to the ESDL language you have to install Eclipse and the Eclipse Modeling Tools which contain the Eclipse Modeling Framework.
+## Download Eclipse Modeling tools
 
-These can be downloaded from the eclipse.org website. Easiest is downloading the modeling package directly with a new Eclipse installation, but alternatively you could also install these modeling tools as plugins in your existing Eclipse installation. Since EMF is still under active development, and ESDL is using new features from these latest releases, it is required to use the lastest version of Eclipse.
-
-Currently Oxygen 3a is the latest stable release of Eclipse. The complete package can be downloaded [here](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/oxygen3a).
+Currently Oxygen 3a is the latest stable release of Eclipse. The complete package can be downloaded [here](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/oxygen3a). Chose the **Eclipse Modeling Tools** from the list.
 
 ## Setting up Eclipse Modeling Tools
 
@@ -12,7 +10,7 @@ After downloading and installing Eclipse and Eclipse Modeling Tools, you start E
 
 If you did not clone the repository yet, now is a good moment with your preferred GIT tool or use Eclipse to import the repository directly.
 
-![](../../.gitbook/assets/import.png)
+![](../../../.gitbook/assets/import.png)
 
 Next step is importing the ESDL git repository by using File -&gt; Import... If you already cloned the repository locally, use _Existing Project into Workspace_ and the project will be imported. If you want to directly import the project from Git, use Git-&gt;Projects from Git.
 
@@ -20,7 +18,7 @@ Next step is importing the ESDL git repository by using File -&gt; Import... If 
 
 After importing, the _Package explorer_ will show the following files and directories:
 
-![](../../.gitbook/assets/package-explorer.PNG)
+![](../../../.gitbook/assets/package-explorer.PNG)
 
 In the model folder you see several files:
 
@@ -32,13 +30,13 @@ In the model folder you see several files:
 
 Double clicking on the aird-file opens the following dialog:
 
-![](../../.gitbook/assets/aird.png)
+![](../../../.gitbook/assets/aird.png)
 
 The AIRD file shows the model dependencies and representation. The Design-&gt;Entities in a Class Diagram is the most interesting. Double click on 'esdl' to open this representation.
 
 There is also a Review representation that shows all the documentation in the model. \(although this is work in progress\).
 
-![](../../.gitbook/assets/esdl-diagram-editor.png)
+![](../../../.gitbook/assets/esdl-diagram-editor.png)
 
 Now you're setup to edit the Energy System Description Language!
 
