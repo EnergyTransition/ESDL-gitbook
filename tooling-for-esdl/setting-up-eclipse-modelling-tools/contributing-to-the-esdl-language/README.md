@@ -2,7 +2,7 @@
 
 ## Download Eclipse Modeling tools
 
-Currently Oxygen 3a is the latest stable release of Eclipse. The complete package can be downloaded [here](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/oxygen3a). Chose the **Eclipse Modeling Tools** from the list.
+Currently Oxygen 3a is the latest stable release of Eclipse. The complete package can be downloaded [here](https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/oxygen3a). Choose **Eclipse Modeling Tools** from the list.
 
 ## Setting up Eclipse Modeling Tools
 
