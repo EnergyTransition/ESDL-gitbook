@@ -6,7 +6,7 @@ description: Which software tools can be used to use and edit ESDL
 
 ## Modeling
 
-The concepts and the relations among the concepts in ESDL are defined in a structured model: the ESDL model. A modelling language is subsequently used to model the ESDL model. This modelling language is called the [Unified Modeling Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language) \(UML\). But to make ESDL more accessable to both modelers, developers and end-users, ESDL is based on a dialect of UML called ECore. Therefore ESDL is modeled in [ECore](https://en.wikipedia.org/wiki/Eclipse_Modeling_Framework#Ecore).
+The concepts and the relations among the concepts in ESDL are defined in a structured model: the ESDL model. A modeling language is subsequently used to model the ESDL model. This modeling language is called the [Unified Modeling Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language) \(UML\). But to make ESDL more accessable to both modelers, developers and end-users, ESDL is based on a dialect of UML called ECore. Therefore ESDL is modeled in [ECore](https://en.wikipedia.org/wiki/Eclipse_Modeling_Framework#Ecore).
 
 ECore is part of the [Eclipse Modeling Framework ](https://www.eclipse.org/modeling/emf/)\(EMF\). [Eclipse ](https://www.eclipse.org/)is a well-known open-source Integrated Development Environment \(IDE\) that supports developers with all kinds of tools to develop software programs.
 
