@@ -34,3 +34,7 @@ Double clicking on the aird-file opens the following dialog:
 
 ![](../../.gitbook/assets/aird.png)
 
+The AIRD file shows the model dependencies and representation. The Design-&gt;Entities in a Class Diagram is the most interesting. Double click on 'esdl' to open this representation.
+
+There is also a Review representation that shows all the documentation in the model. \(although this is work in progress\).
+
