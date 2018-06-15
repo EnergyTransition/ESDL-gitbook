@@ -17,13 +17,13 @@ Assets are contained by Areas.
 
 An EnergyAsset is an Asset with one or more ports allowing to model connections between assets.
 
-EnergyAssets are subdivided into 5 categories:
+The EnergyAsset class is subdivided into 5 categories:
 
-* ProductionAssets
-* ConsumptionAssets
-* StorageAssets
-* TransportAssets
-* ConversionAssets
+* ProductionAsset: e.g. wind turbine, solar panel, geothermal source
+* ConsumptionAsset: e.g. electricity demand, heat demand, gas demand
+* StorageAsset: e.g. battery, buffer
+* TransportAsset: e.g. electricity network, gas network, cable, pipe, transformer, heat exchange
+* ConversionAsset: e.g. gasheater, heatpump, power plant, CHP, fuel cell
 
 ## Services
 
