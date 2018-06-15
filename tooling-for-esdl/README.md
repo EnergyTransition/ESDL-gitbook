@@ -20,7 +20,7 @@ These properties make it easier to adopt ESDL, as this project not only provides
 
 The tools can be spilt up in two categories:
 
-1. Tools to edit the ESDL model itself and contribute the the ESDL specification
+1. Tools to edit the ESDL model itself and contribute the ESDL specification
 2. Tools to edit the ESDL model instances ifself \(the ESDL-files\)
 
 
