@@ -23,7 +23,7 @@ Potentials can be used to describe all different kinds of energy potentials. Exa
 * GeothermalPotential: to describe the potential for geothermal energy
 * WindPotential: to describe the potential for wind turbines
 * SolarPotential: to describe the potential for solar PV fields
-* LegalArea: to describe for example areas where no aquifers are allowed because the underground water is used for drinking water.
+* LegalArea: to describe for example areas where no aquifers are allowed because the underground water is used for drinking water \(a negative potential\).
 
 ## Measures
 
