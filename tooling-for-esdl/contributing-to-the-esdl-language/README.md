@@ -32,5 +32,5 @@ In the model folder you see several files:
 
 Double clicking on the aird-file opens the following dialog:
 
-
+![](../../.gitbook/assets/aird.png)
 
