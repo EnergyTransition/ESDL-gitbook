@@ -8,9 +8,9 @@ Currently Oxygen 3a is the latest stable release of Eclipse. The complete packag
 
 ## Setting up Eclipse Modeling Tools
 
-After downloading and installing Eclipse and Eclipse Modeling Tools, you start Eclipse Modeling Oxygen by doubleclicking on the created icon on the Deskop \(if you are using Windows...\). If will ask you where you want to place your workspace files. Select a logical location and you end up with a welcome screen.
+After downloading and installing Eclipse and Eclipse Modeling Tools, you start Eclipse Modeling Oxygen by doubleclicking on the created icon on the Deskop \(if you are using Windows...\). It will ask you where you want to place your workspace files. Select a logical location and you end up with a welcome screen.
 
- If you did not clone the repository yet, now is a good moment with your preferred GIT tool or use Eclipse to import the repository directly.
+If you did not clone the repository yet, now is a good moment with your preferred GIT tool or use Eclipse to import the repository directly.
 
 ![](../../.gitbook/assets/import.png)
 
