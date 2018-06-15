@@ -38,3 +38,7 @@ The AIRD file shows the model dependencies and representation. The Design-&gt;En
 
 There is also a Review representation that shows all the documentation in the model. \(although this is work in progress\).
 
+![](../../.gitbook/assets/esdl-diagram-editor.png)
+
+Now you're setup to edit the Energy System Description Language!
+
