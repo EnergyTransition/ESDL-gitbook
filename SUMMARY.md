@@ -11,6 +11,7 @@
     * [Items, Assets, EnergyAssets and Services](esdl-concepts/data-types/items-assets-and-energyassets/README.md)
       * [Overview of EnergyAssets \(TODO\)](esdl-concepts/data-types/items-assets-and-energyassets/overview-of-energyassets.md)
     * [Profiles \(TODO\)](esdl-concepts/data-types/profiles.md)
+  * [ESDL model](esdl-concepts/esdl-model.md)
 * [How to use ESDL](how-to-use-esdl.md)
 * [Tooling for ESDL](tooling-for-esdl/README.md)
   * [Contributing to the ESDL model](tooling-for-esdl/setting-up-eclipse-modelling-tools/README.md)
