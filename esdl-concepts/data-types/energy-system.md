@@ -4,11 +4,11 @@ The EnergySystem class will be the place to start if you want to model an energy
 
 An EnergySystem contains the following information:
 
-* Instances
-* Potentials
-* Measures
-* Parties
-* EnergySystemInformation
+* [Instances](energy-system.md#instances)
+* [Potentials](energy-system.md#potentials)
+* [Measures](energy-system.md#measures)
+* [Parties](energy-system.md#parties)
+* [EnergySystemInformation](energy-system.md#energysysteminformation)
 
 ## Instances
 
