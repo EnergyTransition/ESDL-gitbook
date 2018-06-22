@@ -2,7 +2,5 @@
 
 A graphical view on the ESDL model can be found here:
 
-{% page-ref page="esdl-model.md" %}
-
-
+![](../.gitbook/assets/esdl-1.png)
 
