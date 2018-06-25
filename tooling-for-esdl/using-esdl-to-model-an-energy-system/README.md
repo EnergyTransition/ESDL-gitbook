@@ -1,14 +1,8 @@
 # Using ESDL to model an energy system
 
-## ESDL Tree Editor
+At the moment there are three initiatives to view and edit/generate ESDL instances \(they need to be documented however\)
 
-Eclipse based editor 
-
-## ESDL Viewer
-
-Webbased viewer for ESDL instances
-
-## ESDL Visual Editor
-
-Eclipse based graphical editor
+* [Eclipse based ESDL tree editor](esdl-tree-editor.md)
+* Graphical ESDL viewer \(TODO\)
+* Eclipse based visual ESDL editor \(TODO\)
 
