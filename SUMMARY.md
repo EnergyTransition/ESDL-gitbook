@@ -26,4 +26,5 @@
     * [Code Generation \(Java\)](tooling-for-esdl/using-esdl-in-models/code-generation-java.md)
     * [Code Generation \(Python\)](tooling-for-esdl/using-esdl-in-models/code-generation-python.md)
 * [Examples \(TODO\)](examples.md)
+* [Contact](contact.md)
 
