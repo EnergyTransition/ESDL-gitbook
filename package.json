@@ -1,0 +1,34 @@
+{
+  "name": "esdl-gitbook",
+  "version": "0.0.1",
+  "description": "The documentation of the Energy System Description Language, an open source project on: https://github.com/EnergyTransition/ESDL",
+  "main": "index.js",
+  "scripts": {
+    "ebooks": "npm run pdf && npm run mobi && npm run epub",
+    "pdf": "gitbook pdf ./ out/esdl.pdf",
+    "mobi": "gitbook mobi ./ out/esdl.mobi",
+    "epub": "gitbook epub ./ out/esdl.epub"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnergyTransition/ESDL-gitbook.git"
+  },
+  "keywords": [
+    "ESDL",
+    "Energy",
+    "System",
+    "Description",
+    "Language",
+    "Energy",
+    "Transition"
+  ],
+  "author": "Edwin Matthijssen, Bob Ran, Ewoud Werkman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnergyTransition/ESDL-gitbook/issues"
+  },
+  "homepage": "https://github.com/EnergyTransition/ESDL-gitbook#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

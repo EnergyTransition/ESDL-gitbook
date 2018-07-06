@@ -1,0 +1,8 @@
+{
+  "title": "ESDL, the Energy System Description Language",
+  "author": "Edwin Matthijssen, Bob Ran, Ewoud Werkman",
+  "pdf": {
+    "headerTemplate": "_TITLE_",
+    "footerTemplate": "_PAGENUM_"
+  }
+}
