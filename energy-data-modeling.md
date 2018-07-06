@@ -4,19 +4,19 @@ In order to fully understand how an energy system operates and how it can evolve
 
 ## Energy System Registration
 
-The first type of information is named the ‘energy system registration’, this is geo-oriented data that contains information such as: buildings characteristics, installed base of energy consuming/producing/converting appliances and topologies and other characteristics of energy transportation networks.  
+The first type of information is named the ‘energy system registration’, this is geo-oriented data that contains information such as: buildings characteristics, installed base of energy consuming/producing/converting appliances and topologies and other characteristics of energy transportation networks.
 
 ## Energy System Potential
 
-The second type of information is the ‘energy system potential’.  This information is also typically geo-oriented and describes the potential and constraints of the energy system to evolve. For example information about: areas where wind turbines can be installed, areas where geothermal sources can be found and areas that are suitable for district heating \(heat networks\). 
+The second type of information is the ‘energy system potential’.  This information is also typically geo-oriented and describes the potential and constraints of the energy system to evolve. For example information about: areas where wind turbines can be installed, areas where geothermal sources can be found and areas that are suitable for district heating \(heat networks\).
 
-![](https://github.com/EnergyTransition/ESDL-gitbook/blob/master/Images/Dutch%20Geo%20Potential.JPG?raw=true)
+![](Images/Dutch%20Geo%20Potential.JPG)
 
 ## Energy System Usage
 
-The third type of information is ‘energy system usage’. This type of information is providing insight on how the energy system is used over time. Typically this results in profiles or measurements for a certain duration of time. Examples of this information are: yearly energy consumption of a building, a profile of the production of a PV panel and a profile of the usage of a heat pump. This information describes the dynamic behavior of the energy system. 
+The third type of information is ‘energy system usage’. This type of information is providing insight on how the energy system is used over time. Typically this results in profiles or measurements for a certain duration of time. Examples of this information are: yearly energy consumption of a building, a profile of the production of a PV panel and a profile of the usage of a heat pump. This information describes the dynamic behavior of the energy system.
 
-![](https://github.com/EnergyTransition/ESDL-gitbook/blob/master/Images/Repository%20Data.JPG?raw=true)
+![](Images/Repository%20Data.JPG)
 
 ## Combining data
 
