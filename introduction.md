@@ -4,7 +4,7 @@ The energy transition from fossil to renewable requires a major change in the co
 
 ## What is ESDL?
 
-The Energy System Description Language \(ESDL\) is a modeling language created for modeling the components in an energy system and their relations towards each other. Furthermore ESDL is capable of expressing the dynamic behavior of components in the energy system. For instance the power consumption of an neighborhood. ESDL describes components by their basic functionality \(so called _Energy Capabilities_\), these are modeled in 5 abstract categories: Production, Consumption, Storage, Transport and Conversion. ESDL enables energy modelers to model a complex energy system in a generic way. The language is machine readable so makers of energy transition calculation tools and GIS applications can support ESDL in order to enforce the interoperability of their products.
+The Energy System Description Language \(ESDL\) is a modelling language created for modelling the components in an energy system and their relations towards each other. Furthermore ESDL is capable of expressing the dynamic behaviour of components in the energy system. For instance the power consumption of an neighbourhood. ESDL describes components by their basic functionality \(so called _Energy Capabilities_\), these are modelled in 5 abstract categories: Production, Consumption, Storage, Transport and Conversion. ESDL enables energy modelers to model a complex energy system in a generic way. The language is machine readable so makers of energy transition calculation tools and GIS applications can support ESDL in order to enforce the interoperability of their products.
 
 ![](./Images/ESDL.JPG)
 
@@ -19,11 +19,9 @@ ESDL can be used:
 * to monitor the evolution of an energy system: multiple ESDL snapshots of a certain area over time provide insight in the evolution of an energy system.
 * as a format to share data relevant to energy systems or the energy transition. Examples:
   * CO2 emissions per energy carrier
-  * Technology factsheets for specific components, brands, types \(e.g. a heatpump factsheet that describes its typical parameters\)
+  * Technology factsheets for specific components, brands, types \(e.g. a heat pump factsheet that describes its typical parameters\)
   * Cost information of assets, or expected cost developments in future
-  * Standard configurations or templates of typical parts of the energy system \(e.g. a house with a heatpump, solar panels and an EV charging station\)
-
-
+  * Standard configurations or templates of typical parts of the energy system \(e.g. a house with a heat pump, solar panels and an EV charging station\)
 
 ##
 

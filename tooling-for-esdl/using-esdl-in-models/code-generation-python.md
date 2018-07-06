@@ -6,9 +6,9 @@ Using the generateDS tool with the XSD generated from the ESDL model, you can ge
 
 ## Generate the XSD from the ESDL model
 
-The ESDL github project contains the XML schema definition \(XSD\) file in the model subdirectory. 
+The ESDL GitHub project contains the XML schema definition \(XSD\) file in the model subdirectory.
 
-To generate a new XSD from an updated ESDL model, right click the esdl.genmodel file and select the 'Export model...' option from the drop down menu. In the wizard select the 'XML Schema' model exporter and follow the steps in the wizard to create the XSD.
+To generate a new XSD from an updated ESDL model, right click the `esdl.genmodel` file and select the 'Export model...' option from the drop down menu. In the wizard select the 'XML Schema' model exporter and follow the steps in the wizard to create the XSD.
 
 ## Create Python classes using GenerateDS
 

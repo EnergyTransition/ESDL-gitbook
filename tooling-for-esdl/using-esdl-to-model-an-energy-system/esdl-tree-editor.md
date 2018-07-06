@@ -13,15 +13,15 @@ This document describes the following topics:
 
 Go to [www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and press the “Download” button under the “JDK” text to download the JDK.
 
-### Step 1: Download Eclipse Modeling Tools
+### Step 1: Download Eclipse Modelling Tools
 
 From: [http://www.eclipse.org/downloads/packages/](http://www.eclipse.org/downloads/packages/)
 
-Select for example “Windows 64-bit”: [http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-modeling-oxygen-2-win32-x86\_64.zip](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-modeling-oxygen-2-win32-x86_64.zip)
+Select for example “Windows 64-bit”: [http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-modelling-oxygen-2-win32-x86\_64.zip](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-modelling-oxygen-2-win32-x86_64.zip)
 
 ### Step 2: Unzip zip-file on local hard drive
 
-Unzip for example to C:\Apps\eclipse-modeling-tools
+Unzip for example to C:\Apps\eclipse-modelling-tools
 
 ![](../../.gitbook/assets/eclipse-dir.PNG)
 
@@ -40,7 +40,7 @@ A zip file with the ESDL plugins can be found [here](https://github.com/EnergyTr
 
 ### Step 1: Start Eclipse and select workspace
 
-Start eclipse by executing eclipse.exe from the folder your installed eclipse in  
+Start eclipse by executing eclipse.exe from the folder your installed eclipse in
 Select a directory to store all your eclipse projects and press the “Launch” button:
 
 ![](../../.gitbook/assets/select-workspace-dir.PNG)

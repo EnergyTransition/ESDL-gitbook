@@ -4,12 +4,12 @@
 
 The Item class represents an abstract item. Items can have an id, a name, a short name and a description.  The following classes are derived from the item class:
 
-* Assets: an Asset is an Item with a physical representation. 
+* Assets: an Asset is an Item with a physical representation.
 * Services: A Service is a logical Item.
 
 ## Assets
 
-Assets are all physical items in the EnergySystem. Assets can have a location, a geometry, commisioning and decommissioning dates, cost information \(investment, installation and operation and maintenance costs\).
+Assets are all physical items in the EnergySystem. Assets can have a location, a geometry, commissioning and decommissioning dates, cost information \(investment, installation and operation and maintenance costs\).
 
 Assets are contained by Areas.
 
@@ -23,7 +23,7 @@ The EnergyAsset class is subdivided into 5 categories:
 * ConsumptionAsset: e.g. electricity demand, heat demand, gas demand
 * StorageAsset: e.g. battery, buffer
 * TransportAsset: e.g. electricity network, gas network, cable, pipe, transformer, heat exchange
-* ConversionAsset: e.g. gasheater, heatpump, power plant, CHP, fuel cell
+* ConversionAsset: e.g. gas heater, heat pump, power plant, CHP, fuel cell
 
 ## Services
 

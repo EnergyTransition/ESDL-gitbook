@@ -2,7 +2,7 @@
 
 * [ESDL Documentation](README.md)
 * [Introduction](introduction.md)
-* [Energy Data Modeling](energy-data-modeling.md)
+* [Energy Data Modelling](energy-data-modelling.md)
 * [ESDL concepts](esdl-concepts/README.md)
   * [Design principles](esdl-concepts/design-principles.md)
   * [Data types](esdl-concepts/data-types/README.md)
@@ -15,7 +15,7 @@
 * [How to use ESDL](how-to-use-esdl.md)
 * [Tooling for ESDL](tooling-for-esdl/README.md)
   * [Contributing to the ESDL model](tooling-for-esdl/setting-up-eclipse-modelling-tools/README.md)
-    * [Setting up the Eclipse Modeling Tools](tooling-for-esdl/setting-up-eclipse-modelling-tools/contributing-to-the-esdl-language/README.md)
+    * [Setting up the Eclipse Modelling Tools](tooling-for-esdl/setting-up-eclipse-modelling-tools/contributing-to-the-esdl-language/README.md)
       * [Generating model, edit and editor code \(TODO\)](tooling-for-esdl/setting-up-eclipse-modelling-tools/contributing-to-the-esdl-language/generating-model-edit-and-editor-code.md)
   * [Using ESDL to model an energy system](tooling-for-esdl/using-esdl-to-model-an-energy-system/README.md)
     * [ESDL tree editor](tooling-for-esdl/using-esdl-to-model-an-energy-system/esdl-tree-editor.md)
