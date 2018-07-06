@@ -1,7 +1,9 @@
 ---
 description: >-
   The documentation of the Energy System Description Language, an open source
-  project on: https://github.com/EnergyTransition/ESDL
+  project on: https://github.com/EnergyTransition/ESDL.
+
+  Alternatively, you can download an eBook version as [pdf](./out/esdl.pdf), [epub](./out/esdl.epub), [mobi](./out/esdl.mobi).
 ---
 
 # ESDL Documentation
