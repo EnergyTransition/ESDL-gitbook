@@ -4,6 +4,10 @@ description: >-
   project on: https://github.com/EnergyTransition/ESDL.
 ---
 
+# Current state
+
+ESDL is still being heavily developed, with new versions being released periodically. We are using ESDL in many different projects now to get experience in using it and collect feedback. Some parts are still subject to discussion. Feel free to start using it, but some things will definitely change in the coming months. 
+
 # ESDL Documentation
 
 This documentation contains the following chapters:
