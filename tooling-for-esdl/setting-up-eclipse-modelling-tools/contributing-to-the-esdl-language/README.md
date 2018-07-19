@@ -4,7 +4,9 @@
 
 Currently Oxygen 3a is the latest stable release of Eclipse. The complete package can be downloaded [here](https://www.eclipse.org/downloads/packages/eclipse-modelling-tools/oxygen3a). Choose **Eclipse Modelling Tools** from the list. Or you can download the Eclipse installer from the [general download page](https://www.eclipse.org/downloads/) and select the Eclipse Modelling Tools from the list of options after running the executable.
 
-|**Important note**: If you've previously installed the eclipse environment using this tutorial, installed the ESDL plugins and now want to clone the ESDL git repository, you have to remove the ESDL plugins.|
+---
+**Important note**: If you've previously installed the eclipse environment using this tutorial, installed the ESDL plugins and now want to clone the ESDL git repository, you have to remove the ESDL plugins.
+---
 
 ## Setting up Eclipse Modelling Tools
 
