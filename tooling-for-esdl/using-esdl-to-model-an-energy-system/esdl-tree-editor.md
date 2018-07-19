@@ -27,7 +27,7 @@ Unzip for example to C:\Apps\eclipse-modelling-tools
 
 ### Step 3: Add ESDL plugin files to plugins directory
 
-A zip file with the ESDL plugins can be found [here](https://github.com/EnergyTransition/ESDL-tooling/blob/master/ESDL_plugins_for_eclipse_v1806.zip).
+A zip file with the ESDL plugins can be found [here](https://github.com/EnergyTransition/ESDL-tooling).
 
 ![](../../.gitbook/assets/plugins-in-dir.PNG)
 
