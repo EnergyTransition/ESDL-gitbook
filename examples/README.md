@@ -4,8 +4,8 @@ The variety of possible applications of ESDL is enormous. The language allows bo
 
 Examples are:
 
-* [Describing a municipality](describing-a-municipality.md)
 * [Describing a house](describing-a-house.md)
+* [Describing a municipality](describing-a-municipality.md)
 
 More examples will be added in the coming months.
 

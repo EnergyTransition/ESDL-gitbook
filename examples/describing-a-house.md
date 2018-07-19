@@ -129,5 +129,3 @@ The ESDL would look like this:
 </esdl:Building>
 ```
 
-This ESDL only shows the assets and topology. Some of the parameters of assets have been given \(like the roof area of the house, the area of the PV panels, the voltage of the electricity network and the efficiency of the gas heater\). No energy usage have been assigned yet; this can be done by adding profiles to \(some of\) the ports.
-

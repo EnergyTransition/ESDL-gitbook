@@ -26,7 +26,7 @@
     * [Code Generation \(Java\)](tooling-for-esdl/using-esdl-in-models/code-generation-java.md)
     * [Code Generation \(Python\)](tooling-for-esdl/using-esdl-in-models/code-generation-python.md)
 * [Examples](examples/README.md)
-  * [Describing a municipality](examples/describing-a-municipality.md)
   * [Describing a house](examples/describing-a-house.md)
+  * [Describing a municipality](examples/describing-a-municipality.md)
 * [Contact](contact.md)
 
