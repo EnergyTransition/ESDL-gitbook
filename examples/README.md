@@ -7,3 +7,4 @@ Examples are:
 * [Describing a municipality](describing-a-municipality.md)
 * [Describing a house](describing-a-house.md)
 
+More examples will be added in the coming months.
