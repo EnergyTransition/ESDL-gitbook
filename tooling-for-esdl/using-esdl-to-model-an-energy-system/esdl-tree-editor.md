@@ -40,8 +40,7 @@ A zip file with the ESDL plugins can be found [here](https://github.com/EnergyTr
 
 ### Step 1: Start Eclipse and select workspace
 
-Start eclipse by executing eclipse.exe from the folder your installed eclipse in
-Select a directory to store all your eclipse projects and press the “Launch” button:
+Start eclipse by executing eclipse.exe from the folder your installed eclipse in Select a directory to store all your eclipse projects and press the “Launch” button:
 
 ![](../../.gitbook/assets/select-workspace-dir.PNG)
 

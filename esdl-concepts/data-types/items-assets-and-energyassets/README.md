@@ -2,7 +2,7 @@
 
 ## Items
 
-The Item class represents an abstract item. Items can have an id, a name, a short name and a description.  The following classes are derived from the item class:
+The Item class represents an abstract item. Items can have an id, a name, a short name and a description. The following classes are derived from the item class:
 
 * Assets: an Asset is an Item with a physical representation.
 * Services: A Service is a logical Item.

@@ -16,18 +16,10 @@ The EMF gives us several tools for free compared to using UML:
 * Provide semantics for modelling concepts. These semantics are geared towards generating tools to read, visualize and edit your ESDL files. EMF provides two ways for these semantics: \(1\) a static version \(using the code generation facility, creating actual files on disk\), and \(2\) a dynamic version that is in real-time created from the concepts you are modelling. This allows for direct feedback on the changes you make to the model as editors are instantly updated with these changes.
 * A graphical editor to manipulate the model.
 
-These properties make it easier to adopt ESDL, as this project not only provides an XML Schema for usage in energy transitions tools, letting the developers write XML-based ESDL-files themselves, but  also provide rich editors to manipulate ESDL-files.
+These properties make it easier to adopt ESDL, as this project not only provides an XML Schema for usage in energy transitions tools, letting the developers write XML-based ESDL-files themselves, but also provide rich editors to manipulate ESDL-files.
 
 The tools can be spilt up in two categories:
 
 1. Tools to edit the ESDL model itself and contribute the ESDL specification
 2. Tools to edit the ESDL model instances \(the ESDL-files\)
-
-
-
-
-
-##
-
-##
 

@@ -2,9 +2,9 @@
 
 ## Energy Capabilities
 
-There are vast amount of different assets in an energy system all having their specific characteristics (e.g cables, heat networks, power plants, solar PV and many more). Modelling an energy system in much detail therefore requires lots of work describing all different assets. However, if we look into the different assets and compare theirs behaviour we see that primarily all assets provide one \(or more\) core functionality and can all be categorized in one of the following five capabilities.
+There are vast amount of different assets in an energy system all having their specific characteristics \(e.g cables, heat networks, power plants, solar PV and many more\). Modelling an energy system in much detail therefore requires lots of work describing all different assets. However, if we look into the different assets and compare theirs behaviour we see that primarily all assets provide one \(or more\) core functionality and can all be categorized in one of the following five capabilities.
 
-![](../Images/Capabilities.JPG)
+![](../.gitbook/assets/capabilities.JPG)
 
 Some examples:
 
@@ -22,7 +22,7 @@ Secondly, every capability comes with a natural way of aggregation. For instance
 
 Modelling an energy system can be done in multiple different levels of detail \(geographical scales\). The level of detail needed depends on the application. For making a energy plan on country level it is much likely not necessary to model the energy consumption of every single building in that country separately with a high time resolution. However, for designing a district heating installation in a specific area it might be possible that that detailed information is necessary. ESDL does not prescribe a certain detail level of modelling of an energy system, it supports describing energy systems on multiple levels. Depending on the application, or the availability of data, a modeler can choose an appropriate modelling level
 
-![](../Images/Aggregation%20Levels.JPG)
+![](../.gitbook/assets/aggregation-levels.JPG)
 
 ESDL supports the modelling of energy systems on detail levels such as: house, building, neighbourhood, city etc . Because in ESDL everything is modelled in terms of capabilities \(previous section\) the different levels are also modelled in terms of capabilities. This means that for instance a house can have a certain level of production, consumption and storage, the ESDL model on neighbourhood scale can be expressed in the same capabilities by taking the aggregated values of the capabilities of all houses in that neighbourhood. The same can be done for city and country scales. This results in a generic way of modelling energy systems independent of the scale \(detail level\). This simplifies reasoning on different energy systems for applications.
 
@@ -30,4 +30,5 @@ ESDL supports the modelling of energy systems on detail levels such as: house, b
 
 An model of a possible future energy system of the island of Ameland, a small island in the north of the Netherlands, is depicted in Figure 1.
 
-![](../Images/Ameland.JPG)
+![](../.gitbook/assets/ameland.JPG)
+

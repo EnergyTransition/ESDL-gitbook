@@ -12,5 +12,3 @@ Areas can have the following properties:
 * Social properties
 * Economic properties
 
-
-

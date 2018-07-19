@@ -14,8 +14,6 @@ If you did not clone the repository yet, now is a good moment with your preferre
 
 Next step is importing the ESDL git repository by using File -&gt; Import... If you already cloned the repository locally, use _Existing Project into Workspace_ and the project will be imported. If you want to directly import the project from Git, use Git-&gt;Projects from Git.
 
-
-
 After importing, the _Package explorer_ will show the following files and directories:
 
 ![](../../../.gitbook/assets/package-explorer.PNG)

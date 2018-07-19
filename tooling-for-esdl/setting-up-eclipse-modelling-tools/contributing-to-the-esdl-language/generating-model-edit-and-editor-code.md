@@ -4,5 +4,3 @@
 
 ## Creating the jars
 
-
-

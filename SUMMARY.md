@@ -25,6 +25,8 @@
     * [Generating and using the ESDL XSD](tooling-for-esdl/using-esdl-in-models/generating-and-using-the-esdl-xsd.md)
     * [Code Generation \(Java\)](tooling-for-esdl/using-esdl-in-models/code-generation-java.md)
     * [Code Generation \(Python\)](tooling-for-esdl/using-esdl-in-models/code-generation-python.md)
-* [Examples \(TODO\)](examples.md)
+* [Examples](examples/README.md)
+  * [Describing a municipality](examples/describing-a-municipality.md)
+  * [Describing a house](examples/describing-a-house.md)
 * [Contact](contact.md)
 
