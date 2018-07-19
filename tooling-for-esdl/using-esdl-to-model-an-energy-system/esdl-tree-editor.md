@@ -17,7 +17,7 @@ Go to [www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.o
 
 From: [http://www.eclipse.org/downloads/packages/](http://www.eclipse.org/downloads/packages/)
 
-Select for example “Windows 64-bit”: [http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-modelling-oxygen-2-win32-x86\_64.zip](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/2/eclipse-modelling-oxygen-2-win32-x86_64.zip)
+Select for example “Windows 64-bit”: [http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-modeling-oxygen-3a-win32-x86\_64.zip](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-modeling-oxygen-3a-win32-x86_64.zip)
 
 ### Step 2: Unzip zip-file on local hard drive
 
