@@ -8,3 +8,4 @@ Examples are:
 * [Describing a house](describing-a-house.md)
 
 More examples will be added in the coming months.
+

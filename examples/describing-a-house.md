@@ -2,15 +2,15 @@
 
 An example house as shown in the picture below can easily be described in ESDL.
 
-![](../Images/ESDL example house.png)
+![](../.gitbook/assets/esdl-example-house.png)
 
 In the eclipse tree editor the house would look like this:
 
-![](../Images/ESDL example house - eclipse.png)
+![](../.gitbook/assets/esdl-example-house-eclipse.png)
 
 The ESDL would look like this:
 
-```
+```text
 <?xml version="1.0" encoding="UTF-8"?>
 <esdl:Building
     xmi:version="2.0"
@@ -128,3 +128,6 @@ The ESDL would look like this:
   </asset>
 </esdl:Building>
 ```
+
+This ESDL only shows the assets and topology. Some of the parameters of assets have been given \(like the roof area of the house, the area of the PV panels, the voltage of the electricity network and the efficiency of the gas heater\). No energy usage have been assigned yet; this can be done by adding profiles to \(some of\) the ports.
+
