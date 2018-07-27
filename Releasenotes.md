@@ -1,6 +1,6 @@
 ## Release v1807a
 
-
+- Generated XSD, v1807 release contained v1806 XSD
 
 ## Release v1807
 
