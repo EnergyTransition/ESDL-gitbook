@@ -29,4 +29,5 @@
   * [Describing a house](examples/describing-a-house.md)
   * [Describing a municipality](examples/describing-a-municipality.md)
 * [Contact](contact.md)
+* [ESDL Release Notes](Releasenotes.md)
 
