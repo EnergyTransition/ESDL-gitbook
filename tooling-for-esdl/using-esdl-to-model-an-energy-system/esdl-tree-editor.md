@@ -2,34 +2,7 @@
 
 ## Introduction
 
-This document describes the following topics:
-
-* [Installing Eclipse ESDL editor](esdl-tree-editor.md#installing-eclipse-esdl-editor)
-* [Defining your first ESDL model](esdl-tree-editor.md#defining-your-first-esdl-model)
-
-## Installing Eclipse ESDL editor
-
-### Step 0: Download Oracle JDK \(if necessary\)
-
-Go to [www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and press the “Download” button under the “JDK” text to download the JDK.
-
-### Step 1: Download Eclipse Modelling Tools
-
-From: [http://www.eclipse.org/downloads/packages/](http://www.eclipse.org/downloads/packages/)
-
-Select for example “Windows 64-bit”: [http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-modeling-oxygen-3a-win32-x86\_64.zip](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-modeling-oxygen-3a-win32-x86_64.zip)
-
-### Step 2: Unzip zip-file on local hard drive
-
-Unzip for example to C:\Apps\eclipse-modelling-tools
-
-![](../../.gitbook/assets/eclipse-dir.PNG)
-
-### Step 3: Add ESDL plugin files to plugins directory
-
-A zip file with the ESDL plugins can be found [here](https://github.com/EnergyTransition/ESDL-tooling).
-
-![](../../.gitbook/assets/plugins-in-dir.PNG)
+This document describes defining your first ESDL model using the ESDL three editor
 
 ## Defining your first ESDL model
 
