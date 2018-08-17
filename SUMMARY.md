@@ -20,7 +20,6 @@
   * [Using ESDL to model an energy system](tooling-for-esdl/using-esdl-to-model-an-energy-system/README.md)
     * [ESDL tree editor](tooling-for-esdl/using-esdl-to-model-an-energy-system/esdl-tree-editor.md)
     * [ESDL graphical editor](tooling-for-esdl/using-esdl-to-model-an-energy-system/esdl-graphical-editor.md)
-    * [ESDL web-based viewer \(TODO\)](tooling-for-esdl/using-esdl-to-model-an-energy-system/esdl-web-based-viewer.md)
   * [Using ESDL in models \(TODO\)](tooling-for-esdl/using-esdl-in-models/README.md)
     * [Generating and using the ESDL XSD](tooling-for-esdl/using-esdl-in-models/generating-and-using-the-esdl-xsd.md)
     * [Code Generation \(Java\)](tooling-for-esdl/using-esdl-in-models/code-generation-java.md)
