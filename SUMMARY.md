@@ -18,6 +18,7 @@
     * [Setting up the Eclipse Modelling Tools](tooling-for-esdl/setting-up-eclipse-modelling-tools/contributing-to-the-esdl-language/README.md)
       * [Generating model, edit and editor code \(TODO\)](tooling-for-esdl/setting-up-eclipse-modelling-tools/contributing-to-the-esdl-language/generating-model-edit-and-editor-code.md)
   * [Using ESDL to model an energy system](tooling-for-esdl/using-esdl-to-model-an-energy-system/README.md)
+    * [Setup Eclipse using the update site](tooling-for-esdl/using-esdl-to-model-an-energy-system/setup-eclipse-update-site.md)
     * [ESDL tree editor](tooling-for-esdl/using-esdl-to-model-an-energy-system/esdl-tree-editor.md)
     * [ESDL graphical editor](tooling-for-esdl/using-esdl-to-model-an-energy-system/esdl-graphical-editor.md)
   * [Using ESDL in models \(TODO\)](tooling-for-esdl/using-esdl-in-models/README.md)
