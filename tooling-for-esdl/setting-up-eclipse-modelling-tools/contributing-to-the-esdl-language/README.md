@@ -2,15 +2,11 @@
 
 ## Download Eclipse Modelling tools
 
-Currently Oxygen 3a is the latest stable release of Eclipse. The complete package can be downloaded [here](https://www.eclipse.org/downloads/packages/eclipse-modelling-tools/oxygen3a). Choose **Eclipse Modelling Tools** from the list. Or you can download the Eclipse installer from the [general download page](https://www.eclipse.org/downloads/) and select the Eclipse Modelling Tools from the list of options after running the executable.
-
-## **Important note**:
-
-If you've previously installed the eclipse environment using [this tutorial](../../using-esdl-to-model-an-energy-system/esdl-tree-editor.md), installed the ESDL plugins and now want to clone the ESDL git repository, you have to remove the ESDL plugins.
+Currently Photon is the latest stable release of Eclipse. You can download the Eclipse installer from the [general download page](https://www.eclipse.org/downloads/) and select the Eclipse Modelling Tools from the list of options after running the executable.
 
 ## Setting up Eclipse Modelling Tools
 
-After downloading and installing Eclipse and Eclipse Modelling Tools, you start Eclipse Modelling Oxygen by double clicking on the created icon on the Desktop \(if you are using Windows...\). It will ask you where you want to place your workspace files. Select a logical location and you end up with a welcome screen.
+After downloading and installing Eclipse and Eclipse Modelling Tools, you start Eclipse by double clicking on the created icon on the Desktop \(if you are using Windows...\). It will ask you where you want to place your workspace files. Select a logical location and you end up with a welcome screen.
 
 If you did not clone the repository yet, now is a good moment with your preferred GIT tool or use Eclipse to import the repository directly.
 
