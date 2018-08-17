@@ -8,6 +8,10 @@ In the eclipse tree editor the house would look like this:
 
 ![](../.gitbook/assets/esdl-example-house-eclipse.png)
 
+In the eclipse graphical desginer the house would look like this:
+
+![](../.gitbook/assets/esdl-example-house-eclipse-designer.png)
+
 The ESDL would look like this:
 
 ```text
