@@ -6,12 +6,16 @@ All asset classes have a Generic and a Aggregated version, e.g. GenericProducer 
 
 Currently the following producer assets exist:
 
-* PVPanel
-* PVParc
-* WindTurbine
-* WindParc
-* GeothermalSource
-* SinkProducer
+* PVPanel: Represents an individual PV panel or an installation of PV panels on a roof for example.
+* PVParc: Represents a PV parc.
+* WindTurbine: Represents an individual windturbinbe.
+* WindParc: Represents a Wind parc (on sea or on land)
+* GeothermalSource: Represents a geothermal source producing heat or electricity
+* SourceProducer: Represents an unlimited source of energy, that can be used to represent the network outside the scope of the energysystem being described.
+
+Assets in new release:
+
+* ResidualHeatSource: Represents residual heat sources from data centers, industry or cooling houses.
 
 New producer assets will be added in future.
 
@@ -19,13 +23,18 @@ New producer assets will be added in future.
 
 Currently the following consumer assets exist:
 
-* ElectricityDemand
-* GasDemand
-* HeatingDemand
-* CoolingDemand
-* Losses
-* EVChargingStation
-* SinkConsumer
+* ElectricityDemand: Represents the electricity demand of a house, group of buildings, sector, area or country.
+* GasDemand: Represents the gas demand of a house, group of buildings, sector, area or country.
+* HeatingDemand: Represents the heating demand of a house, group of buildings, sector, area or country.
+* CoolingDemand: Represents the cooling demand of a house, group of buildings, sector, area or country.
+* EnergyDemand: Represents the energy demand of a house, group of buildings, sector, area or country. It can be used in describing the energybalance of a region for example.
+* Losses: Represents the losses in an energy system. 
+* EVChargingStation: Represents the electricity consumption of an EV charging station.
+* SinkConsumer: Represents an unlimited sink of energy, that can be used to represent the network outside the scope of the energysystem being described.
+
+Assets in new release:
+
+* MobilityDemand: Represents the energy demand of the mobility sector. Can be used to represent total demand or specify a demand per vehicle type and/or fuel type.
 
 New consumer assets will be added in future.
 
@@ -33,8 +42,8 @@ New consumer assets will be added in future.
 
 Currently the following storage assets exist:
 
-* Battery
-* HeatStorage
+* Battery: Represents an electrical battery to store electricity.
+* HeatStorage: Represents a water buffer to store heat (or cold).
 
 New storage assets will be added in future \(aquifer storage\).
 
@@ -42,18 +51,18 @@ New storage assets will be added in future \(aquifer storage\).
 
 Currently the following transport assets exist:
 
-* ElectricityNetwork
-* EConnection
-* ElectricityCable
-* Transformer
-* HeatNetwork
-* HConnection
-* HeatExchange
-* HeatPipe
-* Pump
-* Valve
-* GasNetwork
-* GConnection
+* ElectricityNetwork: Represents an electricity network (on any scale, from an inhouse network, to the national scale electricity network.
+* EConnection: Represents the connection to a electricity network (including the electricity meter).
+* ElectricityCable: Represents an individual cable in a network (if you want to describe a detailed topology).
+* Transformer: Represents a electric transformer (station) to connect two networks with different voltage levels.
+* HeatNetwork: Represents a (district) heat network.
+* HConnection: Represents the connection to a heat network.
+* HeatExchange: Represents a heat exchange to connect two heat networks.
+* HeatPipe: Represents an indivual pipe (if you want to describe a detailed topology).
+* Pump: Represents a pump to generate a flow of water in a pipe or network.
+* Valve: Represents a valve to control water flow.
+* GasNetwork: Represents a gas network.
+* GConnection: Represents the connection to a gas network (including the gas meter).
 
 New transport assets will be added in future.
 
@@ -61,12 +70,12 @@ New transport assets will be added in future.
 
 Currently the following converion assets exist:
 
-* GasHeater
-* HeatPump
-* CHP
-* FuelCell
-* PowerPlant
-* Airco
+* GasHeater: Represents a gas heater.
+* HeatPump: Represents a heat pump (e.g. air-water, connected to an aquifer, using surface water, as a booster pump)
+* CHP: Represents a CHP (Combined Heat and Power) to generate electricity and useful heat simultaneously.
+* FuelCell: Represents a fuel cell, that generates electricity (and possibly heat) using a certain fuel (H2 for example).
+* PowerPlant: Represents a power plant, using for example coal, gas or uranium to produce electricity (residual heat can be delieverd to a heat network). 
+* Airco: Represents an airconditioner 
 
 New conversion assets will be added in future.
 
