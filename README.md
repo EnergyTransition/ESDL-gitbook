@@ -15,7 +15,7 @@ ESDL is still being heavily developed, with new versions being released periodic
 This documentation contains the following chapters:
 
 * [Introduction](introduction.md): General introduction into what ESDL is and for what purposes it can be used.
-* [Energy Data Modelling](https://github.com/EnergyTransition/ESDL-gitbook/tree/c95a6932082308f1aaabbc8a6738b9670490fb64/energy-data-modelling.md): Explanation of the general concepts of Energy Data Modelling
+* [Energy Data Modelling](energy-data-modelling.md): Explanation of the general concepts of Energy Data Modelling
 * [ESDL concepts](esdl-concepts/): Explanation of the what and why of different parts of the ESDL language
 * [How to use ESDL](how-to-use-esdl.md): Explanation of how to use ESDL, practical tips
 * [Tooling for ESDL](tooling-for-esdl/): Explanation of tooling to contribute to the developments of ESDL, to use ESDL to model an energy system and to integrate ESDL in your own tooling
