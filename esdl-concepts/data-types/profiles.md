@@ -3,10 +3,10 @@
 ESDL support many different types of profiles. Next to this ESDL uses profiles for different applications.
 
 Currently ESDL uses profiles for:
-- describing energy consumption and production at ports of `EnergyAssets`
+- describing energy consumption and production at ports of an `EnergyAsset`
 - describing solar irradiance or wind speeds over time
-- describing historic, current and expexted costs for `EnergyCarriers` or `Commodities` (e.g. expected electricity price developments)
-- describing costs for `EnergyAssets` (cost developments of a HeatPump for the coming 30 years). These costs are divided into investment costs, installation costs and operation and maintenance costs)
+- describing historic, current and expexted costs for an `EnergyCarrier` or `Commodity` (e.g. expected electricity price developments)
+- describing costs for an `EnergyAsset` (cost developments of a HeatPump for the coming 30 years). These costs are divided into investment costs, installation costs and operation and maintenance costs)
 
 ESDL supports the following types of profiles:
 - `DateTimeProfile`: Allows to specify a range of values with timestamps.
@@ -18,8 +18,8 @@ ESDL supports the following types of profiles:
 
 ## DateTimeProfile
 
-The `DateTimeProfile` is a collection of values each annotated with a starting time (`from`) and optionally an end time (`to`). When only a starting time is specified, the value is valid until the starting time of the next value in the profile. 
-So, the value of the last item in the profile, is valid for the rest of the time (basically forever). If you want to specify a value for a certain bounded time period, you must specify the `end` time.
+The `DateTimeProfile` is a collection of values each annotated with a start time (`from`) and optionally an end time (`to`). When only a starting time is specified, the value is valid until the start time of the next value in the profile. 
+So, the value of the last item in the profile, is valid for the rest of the time (basically forever). If you want to specify a value for a certain bounded time period, you must specify the end time.
 
 ## InfluxDBProfile
 
