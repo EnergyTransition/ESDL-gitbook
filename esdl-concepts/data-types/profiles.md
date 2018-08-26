@@ -3,10 +3,10 @@
 ESDL support many different types of profiles. Next to this ESDL uses profiles for different applications.
 
 Currently ESDL uses profiles for:
-- describing energy consumption and production at ports of EnergyAssets
-- Describing solar irradiance or wind speeds over time
-- Describing historic, current and expexted costs for EnergyCarriers or Commodities (e.g. expected electricity price developments)
-- Describing costs for EnergyAssets (cost developments of a HeatPump for the coming 30 years). These costs are divided into investment costs, installation costs and operation and maintenance costs)
+- describing energy consumption and production at ports of `EnergyAssets`
+- describing solar irradiance or wind speeds over time
+- describing historic, current and expexted costs for `EnergyCarriers` or `Commodities` (e.g. expected electricity price developments)
+- describing costs for `EnergyAssets` (cost developments of a HeatPump for the coming 30 years). These costs are divided into investment costs, installation costs and operation and maintenance costs)
 
 ESDL supports the following types of profiles:
 - `DateTimeProfile`: Allows to specify a range of values with timestamps.
