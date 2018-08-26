@@ -1,6 +1,6 @@
 # Setting up Eclipse
 
-[Setup Eclipse using the update site](setup-eclipse-update-site.md)
+You can install Eclipse using the link [Setup Eclipse using the update site](setup-eclipse-update-site.md). You will get automatic notifications whenever updates become available.
 
 # Using ESDL to model an energy system
 
