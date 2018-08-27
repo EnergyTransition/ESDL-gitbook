@@ -8,13 +8,11 @@ Currently the following producer assets exist:
 
 * PVPanel: Represents an individual PV panel or an installation of PV panels on a roof for example.
 * PVParc: Represents a PV parc.
+* SolarCollector: Represents an individual solar collector or an installation of solar collector panels.
 * WindTurbine: Represents an individual windturbinbe.
 * WindParc: Represents a Wind parc (on sea or on land).
 * GeothermalSource: Represents a geothermal source producing heat or electricity.
 * SourceProducer: Represents an unlimited source of energy, that can be used to represent the network outside the scope of the energysystem being described.
-
-Assets in new release:
-
 * ResidualHeatSource: Represents residual heat sources from data centers, industry or cooling houses.
 
 New producer assets will be added in future.
@@ -31,9 +29,6 @@ Currently the following consumer assets exist:
 * Losses: Represents the losses in an energy system. 
 * EVChargingStation: Represents the electricity consumption of an EV charging station.
 * SinkConsumer: Represents an unlimited sink of energy, that can be used to represent the network outside the scope of the energysystem being described.
-
-Assets in new release:
-
 * MobilityDemand: Represents the energy demand of the mobility sector. Can be used to represent total demand or specify a demand per vehicle type and/or fuel type.
 
 New consumer assets will be added in future.
@@ -63,6 +58,7 @@ Currently the following transport assets exist:
 * Valve: Represents a valve to control water flow.
 * GasNetwork: Represents a gas network.
 * GConnection: Represents the connection to a gas network (including the gas meter).
+* EnergyNetwork: Represents an (abstract) energy network (for describing energy balance).
 
 New transport assets will be added in future.
 
@@ -76,6 +72,7 @@ Currently the following converion assets exist:
 * FuelCell: Represents a fuel cell, that generates electricity (and possibly heat) using a certain fuel (H2 for example).
 * PowerPlant: Represents a power plant, using for example coal, gas or uranium to produce electricity (residual heat can be delieverd to a heat network). 
 * Airco: Represents an airconditioner. 
+* FermentationPlant: Represents a fermentation plant.
 
 New conversion assets will be added in future.
 
