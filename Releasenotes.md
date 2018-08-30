@@ -9,6 +9,7 @@
 - Added Parties class to model ownership
 - Added DataSources class to list sources of used data in an ESDL model
 - Added Profiles class and ReferenceProfile class to enable reuse of profiles
+- Measures is an Asset collection instead of an Item collection (to ease development of ESDL designer)
 
 ### Release v1807a ([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1807a))
 
