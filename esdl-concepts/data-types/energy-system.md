@@ -12,7 +12,7 @@ An EnergySystem contains the following information:
 
 ## Instances
 
-An EnergySystem can contain zero or more Instances. Instances are used to represent different representations of the **same** EnergySystem. Most of the times only one Instance will be used. The primary use case for having more than one Instance is when you have different aggregations of the same EnergySystem in the same model \(e.g. the same region on house level and aggregated on neighbourhood level\). Another option would be to create different instances for different years (to describe the progress of the energy transition).
+An EnergySystem can contain zero or more Instances. Instances are used to represent different representations of the **same** EnergySystem. Most of the times only one Instance will be used. The primary use case for having more than one Instance is when you have different aggregations of the same EnergySystem in the same model \(e.g. the same region on house level and aggregated on neighbourhood level\). Another option would be to create different instances for different years \(to describe the progress of the energy transition\).
 
 All instances contain an Area. The Area is the class to represent a geographical or logical area. An Area contains all assets in that area or can be subdivided into more Areas
 
@@ -41,6 +41,4 @@ Currently the following information can be added:
 
 * AvailableEnergyCarriers: list of available energy carriers with information about energy content and CO2 emissions. Power plants typically refer to energy carriers to indicate what the source of their energy is.
 * EnergyPrices: prices for gas, electricity
-
- 
 

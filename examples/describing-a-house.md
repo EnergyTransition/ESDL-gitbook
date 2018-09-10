@@ -8,7 +8,7 @@ In the eclipse tree editor the house would look like this:
 
 ![](../.gitbook/assets/esdl-example-house-eclipse.png)
 
-In the eclipse graphical desginer the house (with an EnergySystem, Instance and Area around it) would look like this:
+In the eclipse graphical desginer the house \(with an EnergySystem, Instance and Area around it\) would look like this:
 
 ![](../.gitbook/assets/esdl-example-house-eclipse-designer.png)
 

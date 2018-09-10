@@ -1,4 +1,4 @@
-# Setting up Eclipse
+# Setup Eclipse using the update site
 
 ## Installing Eclipse ESDL editor
 
@@ -10,21 +10,21 @@ Go to [www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.o
 
 From: [http://www.eclipse.org/downloads/packages/](http://www.eclipse.org/downloads/packages/)
 
-Go to the section "Eclipse Modelling Tools" and select for example “Windows 64-bit”: [http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-modeling-photon-R-win32-x86_64.zip](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-modeling-photon-R-win32-x86_64.zip)
+Go to the section "Eclipse Modelling Tools" and select for example “Windows 64-bit”: [http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-modeling-photon-R-win32-x86\_64.zip](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-modeling-photon-R-win32-x86_64.zip)
 
 ## Add ESDL plugin update site
 
 ### Step 1: Open eclipse and close "Welcome Screen"
 
-### Step 2: Select "Help" --> "Install new software..." 
+### Step 2: Select "Help" --&gt; "Install new software..."
 
 ### Step 3: Press "Add..." to add a new software repository
 
 Give the Repository a name and use the following URL as location:
 
-```https://github.com/EnergyTransition/esdl-update-site/raw/master```
+`https://github.com/EnergyTransition/esdl-update-site/raw/master`
 
-### Step 4: Select the package "ESDL (Energy System Description Language)"
+### Step 4: Select the package "ESDL \(Energy System Description Language\)"
 
 Follow the required steps to let Eclipse add the required ESDL components.
 

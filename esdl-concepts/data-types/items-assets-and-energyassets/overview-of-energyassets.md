@@ -10,7 +10,7 @@ Currently the following producer assets exist:
 * PVParc: Represents a PV parc.
 * SolarCollector: Represents an individual solar collector or an installation of solar collector panels.
 * WindTurbine: Represents an individual windturbinbe.
-* WindParc: Represents a Wind parc (on sea or on land).
+* WindParc: Represents a Wind parc \(on sea or on land\).
 * GeothermalSource: Represents a geothermal source producing heat or electricity.
 * SourceProducer: Represents an unlimited source of energy, that can be used to represent the network outside the scope of the energysystem being described.
 * ResidualHeatSource: Represents residual heat sources from data centers, industry or cooling houses.
@@ -38,7 +38,7 @@ New consumer assets will be added in future.
 Currently the following storage assets exist:
 
 * Battery: Represents an electrical battery to store electricity.
-* HeatStorage: Represents a water buffer to store heat (or cold).
+* HeatStorage: Represents a water buffer to store heat \(or cold\).
 
 New storage assets will be added in future \(aquifer storage\).
 
@@ -46,19 +46,19 @@ New storage assets will be added in future \(aquifer storage\).
 
 Currently the following transport assets exist:
 
-* ElectricityNetwork: Represents an electricity network (on any scale, from an inhouse network, to the national scale electricity network.
-* EConnection: Represents the connection to a electricity network (including the electricity meter).
-* ElectricityCable: Represents an individual cable in a network (if you want to describe a detailed topology).
-* Transformer: Represents a electric transformer (station) to connect two networks with different voltage levels.
-* HeatNetwork: Represents a (district) heat network.
+* ElectricityNetwork: Represents an electricity network \(on any scale, from an inhouse network, to the national scale electricity network.
+* EConnection: Represents the connection to a electricity network \(including the electricity meter\).
+* ElectricityCable: Represents an individual cable in a network \(if you want to describe a detailed topology\).
+* Transformer: Represents a electric transformer \(station\) to connect two networks with different voltage levels.
+* HeatNetwork: Represents a \(district\) heat network.
 * HConnection: Represents the connection to a heat network.
 * HeatExchange: Represents a heat exchange to connect two heat networks.
-* HeatPipe: Represents an indivual pipe (if you want to describe a detailed topology).
+* HeatPipe: Represents an indivual pipe \(if you want to describe a detailed topology\).
 * Pump: Represents a pump to generate a flow of water in a pipe or network.
 * Valve: Represents a valve to control water flow.
 * GasNetwork: Represents a gas network.
-* GConnection: Represents the connection to a gas network (including the gas meter).
-* EnergyNetwork: Represents an (abstract) energy network (for describing energy balance).
+* GConnection: Represents the connection to a gas network \(including the gas meter\).
+* EnergyNetwork: Represents an \(abstract\) energy network \(for describing energy balance\).
 
 New transport assets will be added in future.
 
@@ -67,10 +67,10 @@ New transport assets will be added in future.
 Currently the following converion assets exist:
 
 * GasHeater: Represents a gas heater.
-* HeatPump: Represents a heat pump (e.g. air-water, connected to an aquifer, using surface water, as a booster pump)
-* CHP: Represents a CHP (Combined Heat and Power) to generate electricity and useful heat simultaneously.
-* FuelCell: Represents a fuel cell, that generates electricity (and possibly heat) using a certain fuel (H2 for example).
-* PowerPlant: Represents a power plant, using for example coal, gas or uranium to produce electricity (residual heat can be delieverd to a heat network). 
+* HeatPump: Represents a heat pump \(e.g. air-water, connected to an aquifer, using surface water, as a booster pump\)
+* CHP: Represents a CHP \(Combined Heat and Power\) to generate electricity and useful heat simultaneously.
+* FuelCell: Represents a fuel cell, that generates electricity \(and possibly heat\) using a certain fuel \(H2 for example\).
+* PowerPlant: Represents a power plant, using for example coal, gas or uranium to produce electricity \(residual heat can be delieverd to a heat network\). 
 * Airco: Represents an airconditioner. 
 * FermentationPlant: Represents a fermentation plant.
 
