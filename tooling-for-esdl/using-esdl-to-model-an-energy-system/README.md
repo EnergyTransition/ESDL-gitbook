@@ -9,5 +9,5 @@ You can install Eclipse using the link [Setup Eclipse using the update site](set
 At the moment there are two initiatives to view and edit/generate ESDL instances:
 
 * [Eclipse based ESDL tree editor](esdl-tree-editor.md)
-* [Graphical ESDL editor](esdl-graphical-editor.md)
+* [Graphical ESDL editor](esdl-graphical-editor.md) \(the designer\)
 
