@@ -1,8 +1,8 @@
-# ESDL tree editor
+# ESDL Tree editor
 
 ## Introduction
 
-This document describes defining your first ESDL model using the ESDL three editor
+This document describes defining your first ESDL model using the ESDL tree editor. The Tree editor shows ESDL-files as an hierarchical tree and is directly generated from the ecore-model that defines ESDL. Therefore all concepts defined in ESDL are automatically available in the Tree editor.
 
 ## Defining your first ESDL model
 
@@ -49,7 +49,7 @@ Select “Energy System” as a model object to create and click “Finish”:
 
 ![](../../.gitbook/assets/select-energysystem.PNG)
 
-This opens de ESDL editor for your newly generated ESDL model:
+This opens the ESDL Tree editor for your newly generated ESDL model. The top part of the screen shows the newly created model in the Tree editor. In the bottom of the screen it shows the Properties of the currently selected ESDL-concept and allows you to manipulate these properties.:
 
 ![](../../.gitbook/assets/open-esdl-editor.PNG)
 

@@ -27,5 +27,5 @@
 
 ## Release v1806 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1806)\)
 
-* Initial release
+* Initial public release
 
