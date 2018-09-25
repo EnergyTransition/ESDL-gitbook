@@ -23,5 +23,6 @@ This documentation contains the following chapters:
 
 Alternatively, you can download an eBook version in the following formats:
 
+|---|---|---|
 | [PDF](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.pdf) | [ePUB](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.epub) | [Mobi](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.mobi) |
 |---|---|---|
