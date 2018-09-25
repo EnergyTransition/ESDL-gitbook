@@ -21,5 +21,7 @@ This documentation contains the following chapters:
 * [Tooling for ESDL](tooling-for-esdl/): Explanation of tooling to contribute to the developments of ESDL, to use ESDL to model an energy system and to integrate ESDL in your own tooling
 * [Examples](examples/): Several examples of how ESDL can be applied
 
-Alternatively, you can download an eBook version as [pdf](https://github.com/EnergyTransition/ESDL-gitbook/tree/c95a6932082308f1aaabbc8a6738b9670490fb64/out/esdl.pdf?raw=true), [epub](https://github.com/EnergyTransition/ESDL-gitbook/tree/c95a6932082308f1aaabbc8a6738b9670490fb64/out/esdl.epub?raw=true), [mobi](https://github.com/EnergyTransition/ESDL-gitbook/tree/c95a6932082308f1aaabbc8a6738b9670490fb64/out/esdl.mobi?raw=true).
+Alternatively, you can download an eBook version in the following formats:
 
+| [PDF](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.pdf) | [ePUB](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.epub) | [Mobi](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.mobi) |
+|---|---|---|
