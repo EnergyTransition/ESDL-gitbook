@@ -14,8 +14,6 @@ In the eclipse graphical desginer the house \(with an EnergySystem, Instance and
 
 The ESDL would look like this:
 
-{% code-tabs %}
-{% code-tabs-item title="house.esdl" %}
 ```markup
 <?xml version="1.0" encoding="UTF-8"?>
 <esdl:Building
@@ -134,6 +132,5 @@ The ESDL would look like this:
   </asset>
 </esdl:Building>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+
 
