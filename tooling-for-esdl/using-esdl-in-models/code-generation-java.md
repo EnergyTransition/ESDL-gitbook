@@ -14,10 +14,8 @@ There are two ways to integrate with Java-based technology:
 
 The maven repo is currenly a little behind the lastest EMF-versions, but you need the following dependencies in your `pom.xml`:
 
-{% code-tabs %}
-{% code-tabs-item title="pom.xml" %}
 ```markup
-         <dependency>
+        <dependency>
                 <groupId>org.eclipse.emf</groupId>
                 <artifactId>org.eclipse.emf.ecore</artifactId>
                 <version>2.12.0</version>
@@ -34,8 +32,6 @@ The maven repo is currenly a little behind the lastest EMF-versions, but you nee
         </dependency>
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 If these dependencies are added to your application, ESDL can be used in the Java code.
 
