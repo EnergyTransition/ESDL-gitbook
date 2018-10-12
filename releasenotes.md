@@ -1,5 +1,18 @@
 # ESDL Release Notes
 
+## Release v180901 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v180901)\)
+
+* Added KPIs to areas
+* Added new way of describing Quantities and Units (now only used in profiles, kpis and energy carriers)
+* Added possibility to add a DataSource to an asset, profile and so on, without the need for an EnergySystem
+* Added ResidualHeatSourcePotential to list of possible Potentials
+
+## Release v1809 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1809)\)
+
+* Added assets (GasStorage, Electrolyzer)
+* Changed name of asset SinkProducer to SourceProducer
+* Added buildingDensity parameter to Area
+
 ## Release v1808 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1808)\)
 
 * Merged Commodities and EnergyCarriers lists into Carriers list
