@@ -1,5 +1,17 @@
 # ESDL Release Notes
 
+## Release v1810 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1810)\)
+
+* ESDL version has been removed from namespace (was sometimes causing problems with code generation)
+* Added MeasuresCollection (e.g. to group different renovation options for buildings)
+* Added Sectors (and references from Asset and Party)
+* Added ControlStrategy
+* Added EnergyMarkets
+* Added different Assets: WaterToPower (with types hydro, waves, osmosis, tidal), PVInstallation (with types roof, building integrated, road, field, ...) and WindTurbine types (sea, land, coast, roof), GasConversion, Electrolyzer types (PEM, alkaline, SOEC)
+* Changed the way EnergyPotentials are modeled (now grouped per type)
+* Restructured the subclasses of Transport
+* Renamed KPIList to KPIs
+
 ## Release v180901 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v180901)\)
 
 * Added KPIs to areas
