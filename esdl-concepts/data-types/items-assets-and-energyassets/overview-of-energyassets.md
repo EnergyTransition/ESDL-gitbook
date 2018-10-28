@@ -6,7 +6,8 @@ All asset classes have a Generic and a Aggregated version, e.g. GenericProducer 
 
 Currently the following producer assets exist:
 
-* PVPanel: Represents an individual PV panel or an installation of PV panels on a roof for example.
+* PVPanel: Represents an individual PV panel
+* PVInstallation: Represents an installation of PV panels on a roof, road, water, or building-integrated.
 * PVParc: Represents a PV parc.
 * SolarCollector: Represents an individual solar collector or an installation of solar collector panels.
 * WindTurbine: Represents an individual windturbinbe.
@@ -14,6 +15,7 @@ Currently the following producer assets exist:
 * GeothermalSource: Represents a geothermal source producing heat or electricity.
 * SourceProducer: Represents an unlimited source of energy, that can be used to represent the network outside the scope of the energysystem being described.
 * ResidualHeatSource: Represents residual heat sources from data centers, industry or cooling houses.
+* WaterToPower: Represents an installation that generates energy from water using different techniques (hydro power, wave power, tidal power, or osmotic power)
 
 New producer assets will be added in future.
 
@@ -39,6 +41,7 @@ Currently the following storage assets exist:
 
 * Battery: Represents an electrical battery to store electricity.
 * HeatStorage: Represents a water buffer to store heat \(or cold\).
+* GasStorage: Represents a tank to store gas.
 
 New storage assets will be added in future \(aquifer storage\).
 
@@ -50,6 +53,7 @@ Currently the following transport assets exist:
 * EConnection: Represents the connection to a electricity network \(including the electricity meter\).
 * ElectricityCable: Represents an individual cable in a network \(if you want to describe a detailed topology\).
 * Transformer: Represents a electric transformer \(station\) to connect two networks with different voltage levels.
+* CircuitBraker: Represents a electric circuit braker (switch)
 * HeatNetwork: Represents a \(district\) heat network.
 * HConnection: Represents the connection to a heat network.
 * HeatExchange: Represents a heat exchange to connect two heat networks.
@@ -73,6 +77,11 @@ Currently the following converion assets exist:
 * PowerPlant: Represents a power plant, using for example coal, gas or uranium to produce electricity \(residual heat can be delieverd to a heat network\). 
 * Airco: Represents an airconditioner. 
 * FermentationPlant: Represents a fermentation plant.
+* BiomassHeater: Represents a heating installation that is using biomass.
+* GasConversion: Represents an installation that converts one gas to another (e.g. H2 generation from methane).
+* PowerToX: Represents a generic power-to-X installation (can be used when no specific option exists).
+* XToPower: Represents a generic X-to-power installation (can be used when no specific option exists).
+* Electrolyzer: Represents an electrolyzer generating H2 from electricity.
 
 New conversion assets will be added in future.
 
