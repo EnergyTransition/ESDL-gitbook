@@ -2,26 +2,26 @@
 
 ## Release v1810 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1810)\)
 
-* ESDL version has been removed from namespace (was sometimes causing problems with code generation)
-* Added MeasuresCollection (e.g. to group different renovation options for buildings)
-* Added Sectors (and references from Asset and Party)
+* ESDL version has been removed from namespace \(was sometimes causing problems with code generation\)
+* Added MeasuresCollection \(e.g. to group different renovation options for buildings\)
+* Added Sectors \(and references from Asset and Party\)
 * Added ControlStrategy
 * Added EnergyMarkets
-* Added different Assets: WaterToPower (with types hydro, waves, osmosis, tidal), PVInstallation (with types roof, building integrated, road, field, ...) and WindTurbine types (sea, land, coast, roof), GasConversion, Electrolyzer types (PEM, alkaline, SOEC)
-* Changed the way EnergyPotentials are modeled (now grouped per type)
+* Added different Assets: WaterToPower \(with types hydro, waves, osmosis, tidal\), PVInstallation \(with types roof, building integrated, road, field, ...\) and WindTurbine types \(sea, land, coast, roof\), GasConversion, Electrolyzer types \(PEM, alkaline, SOEC\)
+* Changed the way EnergyPotentials are modeled \(now grouped per type\)
 * Restructured the subclasses of Transport
 * Renamed KPIList to KPIs
 
 ## Release v180901 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v180901)\)
 
 * Added KPIs to areas
-* Added new way of describing Quantities and Units (now only used in profiles, kpis and energy carriers)
+* Added new way of describing Quantities and Units \(now only used in profiles, kpis and energy carriers\)
 * Added possibility to add a DataSource to an asset, profile and so on, without the need for an EnergySystem
 * Added ResidualHeatSourcePotential to list of possible Potentials
 
 ## Release v1809 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1809)\)
 
-* Added assets (GasStorage, Electrolyzer)
+* Added assets \(GasStorage, Electrolyzer\)
 * Changed name of asset SinkProducer to SourceProducer
 * Added buildingDensity parameter to Area
 

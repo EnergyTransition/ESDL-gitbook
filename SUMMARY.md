@@ -24,6 +24,7 @@
   * [Integrating ESDL in other applications](tooling-for-esdl/using-esdl-in-models/README.md)
     * [Integration with Java](tooling-for-esdl/using-esdl-in-models/code-generation-java.md)
     * [Integration with Python](tooling-for-esdl/using-esdl-in-models/code-generation-python.md)
+    * [Integration with Python and pyEcore](tooling-for-esdl/using-esdl-in-models/integration-with-python-and-pyecore.md)
 * [Examples](examples/README.md)
   * [Describing a house](examples/describing-a-house.md)
   * [Describing a municipality](examples/describing-a-municipality.md)
