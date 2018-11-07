@@ -2,7 +2,7 @@
 
 ### Introduction
 
-There are currently two ways to create and build Energy Systems with Python. The first is to use the XSD created from the Ecore model and use an XSD to Python class generator to generate python classes. There are a few generators available, but we have useful result with `generateDS`. You can read here more for this approach. 
+There are currently two ways to create and build Energy Systems with Python. The first is to use the XSD created from the Ecore model and use an XSD to Python class generator to generate python classes. There are a few generators available, but we have useful result with `generateDS`. You can read [here ](https://energytransition.gitbook.io/esdl/tooling-for-esdl/using-esdl-in-models/code-generation-python)more for this approach. 
 
 An alternative is using `pyEcore`. [PyEcore ](https://github.com/pyecore/pyecore)is the python equivalent of the Eclipse EMF Ecore implementation. This means that the ESDL meta-model is at runtime available to you for reading, writing and changing ESDL instances. This section provides some examples to use pyEcore to do just that. PyEcore offers two ways:
 
