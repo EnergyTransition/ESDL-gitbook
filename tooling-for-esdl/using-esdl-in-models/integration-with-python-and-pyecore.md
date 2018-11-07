@@ -2,22 +2,26 @@
 
 ### Introduction
 
-There are currently two ways to create and build Energy Systems with Python. The first is to use the XSD created from the Ecore model and use an XSD to Python class generator to generate python classes. There are a few generators available, but we have useful result with `generateDS`. You can read here more for this approach. An alternative is using `pyecore`. [PyEcore ](https://github.com/pyecore/pyecore)is the python equivalent of the Eclipse Ecore implementation. This means that the ESDL meta-model is at runtime available to you for reading, writing and changing ESDL instances. This section provides some examples to use pyecore to do just that. Pyecore offers two ways:
+There are currently two ways to create and build Energy Systems with Python. The first is to use the XSD created from the Ecore model and use an XSD to Python class generator to generate python classes. There are a few generators available, but we have useful result with `generateDS`. You can read here more for this approach. 
 
-* Using a dynamic instance of the model. This means that at runtime the ecore-model is read and python classes are dynamically instantiated.
-* Using a static instance of the model. This means that you first generate python classes from the ecore model \(similar to the XSD-approach\) and import these in your project.
+An alternative is using `pyEcore`. [PyEcore ](https://github.com/pyecore/pyecore)is the python equivalent of the Eclipse EMF Ecore implementation. This means that the ESDL meta-model is at runtime available to you for reading, writing and changing ESDL instances. This section provides some examples to use pyEcore to do just that. PyEcore offers two ways:
 
-The pyecore approach provides some benefits above the XSD approach:
+* Using a dynamic instance of the model. This means that at runtime the Ecore-model is read and Python classes are dynamically instantiated.
+* Using a static instance of the model. This means that you first generate Python classes from the Ecore model \(similar to the XSD-approach\) and import these in your project.
+
+The pyEcore approach provides some benefits above the XSD approach:
 
 * In the transformation from Ecore to XSD, some information is lost, which makes validation more difficult.
-* Since pyEcore is using the Ecore model as a basis and can create a dynamic instance of the model at runtime, there is no need for generating files/classes before you can use a new version of the core model. Especially during development of the ESDL ecore model this approach is convenient. The downside is that autocompletion in the editor \(e.g. PyCharm\) is not available.
-* All python object created for ESDL \(both dynamic and static\) inherit from the `EClass` class \(similar to the Java generated files\). This means that you can query the meta model at runtime and get e.g. the contents of the class using `eclass.eContents()`. Also notification support is available, if your code needs to know when parts of the model are changed. See the pyEcore documentation at [https://pyecore.readthedocs.io/en/latest/user/quickstart.html](https://pyecore.readthedocs.io/en/latest/user/quickstart.html) for more information and features.
+* Assigning a value to a cross-reference will automatically set the `eOpposite()` of it, e.g. in the case of the `connectedTo` reference of a `Port`
+* Type checking when assigning values to e.g. a reference or a primitive type.
+* Since pyEcore is using the ESDL Ecore model as a basis and can create a dynamic instance of the model at runtime, there is no need for generating files/classes before you can use a new version of the core model. Especially during development of the ESDL ecore model this approach is convenient. The downside is that auto completion in the IDE \(e.g. PyCharm\) is not available.
+* All Python objects created for ESDL \(both dynamic and static\) inherit from the `EClass` class \(similar to the Java generated files\). This means that you can query the meta model at runtime and get e.g. the contents of the class using `eclass.eContents`. Also notification support is available, if your code needs to know when parts of the model are changed. See the pyEcore documentation at [https://pyecore.readthedocs.io/en/latest/user/quickstart.html](https://pyecore.readthedocs.io/en/latest/user/quickstart.html) for more information and features.
 
-Currently pyEcore support the XMI format for storing models and model instances. As ESDL is currently not using the XMI features, you need to register esdl-files with the XMLResource, otherwise the XMI namespace and the XMI version information is added to the ESDL-file when saving, giving errors when loading this file in Eclipse with the ESDL plugins. To use XMLResources you need to download the file attached at the end of this page and import it in your project \(as done in all the examples below\).
+Currently pyEcore support the XMI format for storing models and model instances. As ESDL is currently not using the XMI features, but only the XMLResource in the plugins, you need to register esdl-files with the XMLResource, otherwise the XMI namespace and the XMI version information is added to the ESDL-file when saving, giving errors when loading this file in Eclipse with the ESDL plugins. To use XMLResources you need to download the file attached at the end of this page and import it in your project \(as done in all the examples below\).
 
 ## Prerequisites
 
-You should install pyecore and pyecoregen using pip
+You can install pyecore and pyecoregen using pip
 
 ```text
 pip install pyecore
@@ -27,7 +31,7 @@ pip install pyecoregen
 ## Using dynamic instances to work with ESDL files
 
 Creating and storing an ESDL file using dynamic instances can then be done as follows.  
-_Note_ that there is no need to use generated classes.
+_Note_ that there is no need to generated classes first, nor clone the ESDL-repository on github, as the ESDL Ecore model is automatically downloaded from github.
 
 ### Creating and storing Energy Systems
 
@@ -109,6 +113,9 @@ def main():
     print(es.instance[0].area.asset)
     es.instance[0].area.asset.append(esdl.PowerToX(name='Power to Heat', id='powerToH'))
     print(es.instance[0].area.asset)
+    # print a list of all the classes of the instance
+    for child in es.eAllContents():
+        print(attr_to_dict(child))
     # Save the result in the same file
     resource.save()
 
@@ -119,10 +126,27 @@ if name == 'main':
 
 ## Using the generated classes to create ESDL
 
-To have the python classes available offline and use auto-completion in your favourite Python Editor, PyEcoreGen can be used to generate the ESDL-classes from the `esdl.ecore` model. On the command line do the following:  
-`pyecoregen -e https://raw.githubusercontent.com/EnergyTransition/ESDL/master/esdl/model/esdl.ecore -o .`
+To have the Python classes available offline and use auto-completion in your favorite Python Editor, PyEcoreGen can be used to generate the ESDL-classes from the `esdl.ecore` model. On the command line do the following:  
+`$ pyecoregen -e https://raw.githubusercontent.com/EnergyTransition/ESDL/master/esdl/model/esdl.ecore -o .`
 
-This creates an `esdl/`folder and and `esdl.py` that contain all the classes from the ESDL model.
+This creates an `esdl/`folder and and `esdl.py` that contain all the classes from the ESDL model. More information about pyEcoreGen can be found [here](https://github.com/pyecore/pyecoregen).
+
+There is also an alternative way to generate classes programmatically by executing the following code:
+
+```python
+from pyecoregen.ecore import EcoreGenerator
+from pyecore.resources import ResourceSet
+from pyecore.resources.resource import HttpURI
+
+# Load the ESDL model from GitHub
+rset = ResourceSet()
+resource = rset.get_resource(HttpURI('https://raw.githubusercontent.com/EnergyTransition/ESDL/master/esdl/model/esdl.ecore'))
+esdl_model = resource.contents[0]
+
+# Generate the classes
+generator = EcoreGenerator()
+generator.generate(esdl_model, ".")
+```
 
 ### Loading ESDL files using the generated Python classes
 
@@ -154,12 +178,12 @@ if name == 'main':
     main()
 ```
 
-#### Show attributes and there values of Python classes
+### Show attributes and their values of Python classes
 
 When you try to `print()` e.g. an Energy System, you see something like:  
-`print(es)` you get the following information that does not show the attributes of the EnergySystem, but that it is an object ot type esdl.esdl.EnergySystem at a certain memory location:  
+`print(es)` you get the following information that does not show the attributes of the EnergySystem, but that it is an object of type esdl.esdl.EnergySystem at a certain memory location:  
 `<esdl.esdl.EnergySystem object at 0x000002A66FE60390>`   
-A convenient method to print the results of an object is the following code. That code creates a dictionary from the EClass with all its attributes and their value. 
+A convenient method to print the results of an object is the following code. That code creates a dictionary from the EClass with all its attributes and their values. 
 
 ```python
 def attr_to_dict(eobj):
@@ -189,9 +213,11 @@ If you now do a`print(attr_to_dict(es))` you get the following output for the [M
 
 ```
 
+You can also change the `__repr__` of the classes, e.g. by changing the `__repr__` of the python\_class attribute, e.g. `EnergySystem.python_class.__repr__ = lambda x: 'EnergySystem(name={})'.format(x.name)`
+
 ### Manipulating and saving ESDL files
 
-The following example lets you create and save Energy Systems:
+The following example lets you create and save Energy Systems using the generated ESDL classes:
 
 ```python
 from pyecore.resources import ResourceSet, URI
