@@ -75,8 +75,8 @@ def main():
     resource.append(es)
     # Save the resource
     resource.save()
-    
-if name == 'main': 
+
+if __name__ == '__main__': 
     main()
 ```
 
@@ -119,7 +119,7 @@ def main():
     # Save the result in the same file
     resource.save()
 
-if name == 'main': 
+if __name__ == '__main__': 
     main()
 
 ```
@@ -174,7 +174,7 @@ def main():
     # EnergySystem is now loaded into 'es' and can be manipulated, e.g. print it.
     print(attr_to_dict(es))
     
-if name == 'main': 
+if __name__ == '__main__': 
     main()
 ```
 
@@ -258,7 +258,7 @@ def main():
    resource.append(es)
    resource.save()
    
-if name == 'main': 
+if __name__ == '__main__': 
     main()
 ```
 
