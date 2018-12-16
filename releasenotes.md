@@ -1,5 +1,24 @@
 # ESDL Release Notes
 
+## Latest commits
+
+* Added aggregated parameter for Potential
+* Added aggregationCount parameter for Potential and Asset
+* Added Glass Asset
+* Added HeatExchange parameter
+* Added VOLUME and AREA to PhysicalQuantityEnum
+* Added IDs to a number of classes in EnergySystemInformation
+
+## Release v1811 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1811)\)
+
+* Completely changed way of modeling energy potentials
+* added WaterBuffer, UTES, RoomHeater
+* EnergySystem ID marked as ID
+* added 'aggregated' boolean to Asset
+* added 'power' to Consumer
+* added 'percent' to UnitEnum
+* made relation between ControlStrategy and EnergyAsset bidirectional
+
 ## Release v1810 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1810)\)
 
 * ESDL version has been removed from namespace \(was sometimes causing problems with code generation\)
