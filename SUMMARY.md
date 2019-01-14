@@ -30,4 +30,5 @@
   * [Describing a municipality](examples/describing-a-municipality.md)
 * [Contact](contact.md)
 * [ESDL Release Notes](releasenotes.md)
+* [ESDL Colorschema](esdl-colorscheme.md)
 
