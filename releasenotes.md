@@ -1,6 +1,6 @@
 # ESDL Release Notes
 
-## Latest commits
+## Release v1901 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1901)\)
 
 * Added aggregated parameter for Potential
 * Added aggregationCount parameter for Potential and Asset
@@ -8,6 +8,12 @@
 * Added HeatExchange parameter
 * Added VOLUME and AREA to PhysicalQuantityEnum
 * Added IDs to a number of classes in EnergySystemInformation
+* Added interpolationMethod to GenericProfile
+* Added name to Port
+* Added WKT and WKB as geometry types
+* Added SearchAreaWind and SearchAreaSolar as new Potential subclasses
+* Added efficiency as a parameter for the Transport class
+* Added Joint class to solve conflicts with loops in toplogies (in-in and out-out ports)
 
 ## Release v1811 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1811)\)
 
