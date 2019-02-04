@@ -11,7 +11,7 @@ The `Sectors` class is a collection of the class `Sector`. The `Sector` class ca
 
 This class is based on the [standaard bedrijfsindeling](https://www.cbs.nl/-/media/_pdf/2018/17/sbi-2008-versie-2018.pdf) as published by CBS:
 
-![](../../../.gitbook/assets/CBS_standaard_bedrijfsindeling.PNG)
+![](../../../.gitbook/assets/CBS-standaard-bedrijfsindeling.PNG)
 
 An example ESDL file with this information looks like:
 
