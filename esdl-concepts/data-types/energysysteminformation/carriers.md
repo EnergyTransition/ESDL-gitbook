@@ -4,7 +4,7 @@ ESDL allows you to describe a list of carriers with parameters that are used ins
 
 There are two types of carriers:
 - Commodities
-- EnergyCarriers
+- Energy carriers
 
 They serve different purposes but can be combined in the same model if required. Choices depend on the scope of the model.
 
@@ -31,8 +31,8 @@ The `EnergyCarrier` class has the following parameters:
 - an `energyContentUnit` parameter: the unit of the `energyContent` paramater
 - an `emission` parameter: allows the specification of emission values per energy content
 - an `emissionUnit` parameter: the unit of the `emission` parameter
-- an `energyCarrierType` parameter: an enumeration with options UNDEFINED, RENEWABLE, FOSSIL
-- a `stateOfMatter` parameter: an enumeration with options UNDEFINED, SOLID, LIQUID, GASEOUS
+- an `energyCarrierType` parameter: an enumeration with options `UNDEFINED`, `RENEWABLE`, `FOSSIL`
+- a `stateOfMatter` parameter: an enumeration with options `UNDEFINED`, `SOLID`, `LIQUID`, `GASEOUS`
 
 This class is based on the [list of energy carriers](https://www.rvo.nl/sites/default/files/2018/03/Nederlandse%20energiedragerlijst%202018.pdf) as published by RVO:
 
@@ -93,3 +93,5 @@ An example ESDL file with this information looks like:
   <dataSource xsi:type="esdl:DataSource" description="Nederlandse lijst van energiedragers en standaard CO2 emissiefactoren" attribution="http://www.rvo.nl" version="Januari 2017" reference="109749/BL2017" releaseDate="2017-01-01 00:00:00" id="bb60eb43-f5c1-4e77-87ec-e618a6be181f"/>
 </esdl:Carriers>
 ```
+
+
