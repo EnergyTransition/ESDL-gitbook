@@ -36,7 +36,7 @@ The `EnergyCarrier` class has the following parameters:
 
 This class is based on the [list of energy carriers](https://www.rvo.nl/sites/default/files/2018/03/Nederlandse%20energiedragerlijst%202018.pdf) as published by RVO:
 
-![](.gitbook/assets/RVO_emission_energycarriers.PNG)
+![](.gitbook/assets/RVO-emission-energycarriers.PNG)
 
 An example ESDL file with this information looks like:
 
