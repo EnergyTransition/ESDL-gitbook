@@ -1,10 +1,10 @@
 # ESDL color scheme
 
-In our ESDL communications we always use the same colors for different asset types
+In our ESDL communications we always use the same colors for different asset types, as shown in the following picture.
 
 ![](.gitbook/assets/esdl-capabilities.png)
 
-In the table below, you can find the used color scheme for ESDL
+In the table below, you can find the used color scheme for ESDL.
 
 |            | Fill (R,G,B)   | Outline (R,G,B) |
 |------------|----------------|-----------------|
