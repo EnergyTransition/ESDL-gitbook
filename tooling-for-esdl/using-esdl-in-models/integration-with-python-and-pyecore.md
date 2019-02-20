@@ -226,7 +226,11 @@ import esdl
 from xmlresource import XMLResource
 import datetime
 
+# insert attr_to_dict() function from above 
+
 def main():
+   # create a resourceSet that hold the contents of the esdl.ecore model and the instances we use/create
+   rset = ResourceSet()
    # register the metamodel (available in the generated files)
    rset.metamodel_registry[esdl.nsURI] = esdl
    rset.resource_factory['esdl'] = lambda uri: XMLResource(uri)  # we register the factory for '.esdl' extension and XML serialization
@@ -238,13 +242,13 @@ def main():
    instance.aggrType = AggrTypeEnum.PER_COMMODITY
    es.instance.append( instance )
    es.instance[0].area = Area(name="test area")
-   vparc = PVParc(name="PV parc")
-   parc.numberOfPanels = 10
+   pvparc = PVParc(name="PV parc")
+   pvparc.numberOfPanels = 10
    # Use datatime to set dates and times
    now = datetime.datetime.now()
    pvparc.commissioningDate = now
    ed = ElectricityDemand(name="E demand")
-   s.instance[0].area.asset.append(pvparc)
+   es.instance[0].area.asset.append(pvparc)
    es.instance[0].area.asset.append(ed)
    inPort = InPort(id='InPort1')
    ed.port.append(inPort)
