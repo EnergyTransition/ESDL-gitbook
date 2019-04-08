@@ -5,6 +5,7 @@
 * [Energy Data Modelling](energy-data-modelling.md)
 * [ESDL concepts](esdl-concepts/README.md)
   * [Design principles](esdl-concepts/design-principles.md)
+  * [Energy System structure](esdl-concepts/energy-system-structure.md)
   * [Data types](esdl-concepts/data-types/README.md)
     * [Energy System](esdl-concepts/data-types/energy-system.md)
     * [Areas](esdl-concepts/data-types/areas.md)
