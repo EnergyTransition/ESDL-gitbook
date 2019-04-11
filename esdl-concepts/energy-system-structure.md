@@ -10,3 +10,7 @@ An EnergySystem description can contain the following elements:
 - [Parties](data-types/energy-system.md#parties): Parties involved in the EnergySystem, e.g. to model ownership of assets or areas.
 - [Measures](data-types/energy-system.md#measures): Individual measures or collections of measures, including cost information, that can be applied in the EnergySystem by tools or models.
 - [Services](data-types/items-assets-and-energyassets/README.md#services): (Experimental) Abstract information like services (demand response, aggregator services), energy markets and control strategies.
+
+One of the most important items, is the EnergyAsset. It has the following high level structure:
+
+![](../Images/EnergyAssetStructure.png)
