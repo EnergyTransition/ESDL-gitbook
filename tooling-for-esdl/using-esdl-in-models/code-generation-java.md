@@ -30,7 +30,6 @@ The maven repo is currenly a little behind the lastest EMF-versions, but you nee
                 <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
                 <version>2.12.0</version>
         </dependency>
-
 ```
 
 If these dependencies are added to your application, ESDL can be used in the Java code.
@@ -47,19 +46,17 @@ area.setName("Amsterdam municipality")
 energySystem.getArea().add(area);
 ```
 
-
-
 The following code allows you to load and save ESDL-model instances:
 
 ## Loading of an ESDL-file
 
 ```java
 public static EnergySystem loadESDLModel(String fileName) throws IOException {
-		// Initialize the model
-		EsdlPackage.eINSTANCE.eClass();
-		XMIResource resource = new XMIResourceImpl(URI.createURI(fileName));
-		resource.load(null);
-		return (EnergySystem) resource.getContents().get(0);
+        // Initialize the model
+        EsdlPackage.eINSTANCE.eClass();
+        XMIResource resource = new XMIResourceImpl(URI.createURI(fileName));
+        resource.load(null);
+        return (EnergySystem) resource.getContents().get(0);
 }
 ```
 
@@ -67,15 +64,15 @@ If the models grow large with a lot of internal references, add the following li
 
 ```java
 public static EnergySystem loadESDLModel(String fileName) throws IOException {
-		// Initialize the model
-		EsdlPackage.eINSTANCE.eClass();
-		XMIResource resource = new XMIResourceImpl(URI.createURI(fileName));
-		// speed up loading of large files by defering ID references lookup.
-		resource.getDefaultLoadOptions().put(XMIResource.OPTION_DEFER_IDREF_RESOLUTION, Boolean.TRUE);
-		resource.setIntrinsicIDToEObjectMap(new HashMap<String, EObject>());
-		// load the resource
-		resource.load(null);
-		return (EnergySystem) resource.getContents().get(0);
+        // Initialize the model
+        EsdlPackage.eINSTANCE.eClass();
+        XMIResource resource = new XMIResourceImpl(URI.createURI(fileName));
+        // speed up loading of large files by defering ID references lookup.
+        resource.getDefaultLoadOptions().put(XMIResource.OPTION_DEFER_IDREF_RESOLUTION, Boolean.TRUE);
+        resource.setIntrinsicIDToEObjectMap(new HashMap<String, EObject>());
+        // load the resource
+        resource.load(null);
+        return (EnergySystem) resource.getContents().get(0);
 }
 ```
 
@@ -85,13 +82,13 @@ Saving to an ESDL-file is as follows:
 
 ```java
 public static XMIResource saveESDLModel(EnergySystem energySystem, String fileName) throws IOException {
-		XMIResource resource = new XMIResourceImpl(URI.createURI(fileName));
-		resource.getContents().add(energySystem);
-		HashMap<String, Object> opts = new HashMap<String, Object>();
-		// Produce an xsi:schemaLocation in the resource
-		opts.put(XMIResource.OPTION_SCHEMA_LOCATION, true);
-		resource.save(opts);
-		return resource;
-	}
+        XMIResource resource = new XMIResourceImpl(URI.createURI(fileName));
+        resource.getContents().add(energySystem);
+        HashMap<String, Object> opts = new HashMap<String, Object>();
+        // Produce an xsi:schemaLocation in the resource
+        opts.put(XMIResource.OPTION_SCHEMA_LOCATION, true);
+        resource.save(opts);
+        return resource;
+    }
 ```
 

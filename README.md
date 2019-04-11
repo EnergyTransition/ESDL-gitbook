@@ -24,4 +24,8 @@ This documentation contains the following chapters:
 Alternatively, you can download an eBook version in the following formats:
 
 | [PDF](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.pdf) | [ePUB](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.epub) | [Mobi](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.mobi) |
-|---|---|---|
+| :--- | :--- | :--- |
+
+## ESDL Model reference documentation
+
+Additional to this website, a browsable version of the reference documentation is generated from the ESDL model. In the reference documentation all the classes, attributes and references are shown in UML-based diagrams. This site can be found at [https://energytransition.github.io/](https://energytransition.github.io/).
