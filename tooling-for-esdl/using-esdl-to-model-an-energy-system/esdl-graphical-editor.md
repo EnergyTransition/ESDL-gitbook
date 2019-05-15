@@ -1,5 +1,9 @@
 # ESDL Graphical editor / ESDL Designer
 
+The ESDL Designer is an Eclipse based editor for ESDL files. It allows you to drag and drop ESDL components onto a canvas, connect them and change all properties.
+
+![](../../Images/GraphicalDesigner.png)
+
 After installing the ESDL Eclipse plugins using the Eclipse update-site, you can start designing a new Energy System using this tutorial.
 
 ## Step 1. Create a new Modeling Project
