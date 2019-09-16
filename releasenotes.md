@@ -7,7 +7,21 @@
 * costInformation: splitted O_and_MCosts into fixedOperationalAndMaintenanceCosts and variable OperationalAndMaintenanceCosts; added MarginalCosts
 * added StorageStrategy
 * added residentialBuildingType parameter to AggregatedBuilding
-* made difference between supplyTemperature and returnTemperature for HeatCommodity 
+* made difference between supplyTemperature and returnTemperature for HeatCommodity
+* changed cardinality of profile in the Port class from [0..1] to [0..*]
+* added Material class
+* added PipeDiameterEnum enumeration
+* added StateEnum enumeration
+* added Switch, Compressor and PressureReducingValve classes
+* added Sensor class
+* renamed CircuitBraker to CircuitBreaker
+* added parameters for Pipe class
+* added version to EnergySystem
+* added assetType to Asset
+* added port reference to DrivenByProfile
+* added POWER_REACTIVE, FLOW, COMPOSITION and STATE to PhysicalQuantityEnum
+* added VOLT_AMPERE and VOLT_AMPERE_REACTIVE to UnitEnum
+
 
 
 ## Release v1901 \([link](https://github.com/EnergyTransition/ESDL/releases/tag/v1901)\)
