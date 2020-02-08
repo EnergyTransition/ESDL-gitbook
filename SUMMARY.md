@@ -35,8 +35,14 @@
     * [Integration with Python](tooling-for-esdl/using-esdl-in-models/code-generation-python.md)
     * [Integration with Python and pyEcore](tooling-for-esdl/using-esdl-in-models/integration-with-python-and-pyecore.md)
 * [Examples](examples/README.md)
-  * [Describing a house](examples/describing-a-house.md)
-  * [Describing a municipality](examples/describing-a-municipality.md)
+  * Example tooling
+    * [ESDL MapEditor](examples/mapeditor.md)
+    * [Energy System Simulator (ESSIM)](examples/essim.md)
+  * Example projects
+  * Example data
+    * [Describing a house](examples/describing-a-house.md)
+    * [Describing a municipality](examples/describing-a-municipality.md)
+    * [Describing a profile](examples/describing-a-profile.md)
 * [Contact](contact.md)
 * [ESDL Release Notes](releasenotes.md)
 * [ESDL Color Scheme](esdl-colorscheme.md)
