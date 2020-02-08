@@ -4,13 +4,27 @@ description: >-
   project on: https://github.com/EnergyTransition/ESDL.
 ---
 
+# ESDL generic information
+
+### What is ESDL?
+
+ESDL is a modelling language created to describe complete (hybrid) energy systems in one uniform format. It allows to describe information about the individual energy system components, how they are connected, how they are used (e.g. using energy production or consumption profiles), where they are physically located (on the map), what they cost (now and in future). Furthermore information about buildings in an area, energy potential, KPIs (on buildings, areas, or any assets) can be described. Possible applications are facilitating  interoperability between different energy transition models and publishing open data on energy systems.
+
+### Current state
+
+ESDL is still being developed, with new versions being released periodically. The main structure will not change anymore. New attributes can be added to ESSL classes or new classes can be added, whenever a use case requires this. We are using ESDL in many different projects now to get experience in using it and collect feedback. Some parts are still subject to discussion. Feel free to start using it!
+
+### License
+
+ESDL is licensed under the Apache 2.0 license, a permissive free software license written by the Apache Software Foundation. It allows users to use ESDL for any purpose, to distribute it, to modify it, and to distribute modified versions of the software under the terms of the license, without concern for royalties.
+
+# ESDL News
+
+### ESDL projects and applications
+
+ESDL is used in many internal TNO projects each with a different focus. Several applications, tooling and simulation models have been developped during the last few months. More and more external projects with partners start using it. To get an impression of the possibilities have a look at [this page](examples/)
+
 # ESDL Documentation
-
-## Current state
-
-ESDL is still being heavily developed, with new versions being released periodically. We are using ESDL in many different projects now to get experience in using it and collect feedback. Some parts are still subject to discussion. Feel free to start using it, but some things will definitely change in the coming months.
-
-## ESDL Documentation
 
 This documentation contains the following chapters:
 
@@ -19,9 +33,9 @@ This documentation contains the following chapters:
 * [ESDL concepts](esdl-concepts/): Explanation of the what and why of different parts of the ESDL language
 * [How to use ESDL](how-to-use-esdl.md): Explanation of how to use ESDL, practical tips
 * [Tooling for ESDL](tooling-for-esdl/): Explanation of tooling to contribute to the developments of ESDL, to use ESDL to model an energy system and to integrate ESDL in your own tooling
-* [Examples](examples/): Several examples of how ESDL can be applied
+* [Applications and Examples](examples/): Several examples of how ESDL can be applied
 
-Alternatively, you can download an eBook version in the following formats:
+Alternatively, you can download an eBook version in the following formats (will not be updated regularly!):
 
 | [PDF](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.pdf) | [ePUB](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.epub) | [Mobi](https://github.com/EnergyTransition/ESDL-gitbook/raw/master/out/esdl.mobi) |
 | :--- | :--- | :--- |
