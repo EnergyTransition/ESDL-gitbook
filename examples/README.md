@@ -8,7 +8,7 @@ During the last two years different software applications have been developped b
 
 * [MapEditor](examples/mapeditor.md): Map based energy system scenario editor
 * [ESSIM](examples/essim.md): Energy System Simulator
-* [EDR] (examples/energy-data-repository.md): Energy Data Repository
+* [EDR](examples/energy-data-repository.md): Energy Data Repository
 * ESSIM financial: Gives insight in the effects of investments in the energy system of one or more stakeholders on the cashflows between all stakeholders in this system
 * ESDL based loadflow calculation of electricity grids
 
