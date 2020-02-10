@@ -38,6 +38,7 @@
   * Example tooling
     * [ESDL MapEditor](examples/mapeditor.md)
     * [Energy System Simulator (ESSIM)](examples/essim.md)
+    * [Energy Data Repository (EDR)](examples/energy-data-repository.md)
   * Example projects
   * Example data
     * [Describing a house](examples/describing-a-house.md)
