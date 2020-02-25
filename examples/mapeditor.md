@@ -22,5 +22,10 @@ As ESDL allows you to describe the buildings in an area, the MapEditor is able t
 
 ![](pictures/mapeditor-bag-buildings.png)
 
+The new ESDL MapEditor release has a separate building editor for in-building energy system configurations. In the picture below you see an example of an all-electric house, with a heat pump, solar panels, a battery and an EV chargingstation. 
+
+![](pictures/mapeditor-buildingeditor.png)
+
+
 
 
