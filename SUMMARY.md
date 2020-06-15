@@ -38,6 +38,7 @@
 * [Software development with ESDL](software-development/README.md)
     * [Integration with Java](software-development/code-generation-java.md)
     * [Integration with Python and pyEcore](software-development/integration-with-python-and-pyecore.md)
+	* [Jupyter Notebook ESDL tutorial](https://github.com/EnergyTransition/ESDL-PyEcore-Tutorial/blob/master/ESDLTutorials.ipynb)
 * [Contributing to ESDL](esdl-contribution/setting-up-eclipse-modelling-tools/README.md)
     * [Setting up the Eclipse Modelling Tools](esdl-contribution/setting-up-eclipse-modelling-tools/contributing-to-the-esdl-language/README.md)
       * [Generating model, edit and editor code](esdl-contribution/setting-up-eclipse-modelling-tools/contributing-to-the-esdl-language/generating-model-edit-and-editor-code.md)
