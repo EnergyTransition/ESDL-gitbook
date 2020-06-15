@@ -4,7 +4,7 @@
 
 There are vast amount of different assets in an energy system all having their specific characteristics \(e.g cables, heat networks, power plants, solar PV and many more\). Modelling an energy system in much detail therefore requires lots of work describing all different assets. However, if we look into the different assets and compare theirs behaviour we see that primarily all assets provide one \(or more\) core functionality and can all be categorized in one of the following five capabilities.
 
-![](../Images/capabilities.JPG)
+![](../Images/capabilitiy_overview.jpg)
 
 Some examples:
 
