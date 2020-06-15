@@ -31,7 +31,7 @@ This documentation contains the following chapters:
 * [Introduction](introduction.md): General introduction into what ESDL is and for what purposes it can be used.
 * [Energy Data Modelling](energy-data-modelling.md): Explanation of the general concepts of Energy Data Modelling
 * [ESDL concepts](esdl-concepts/): Explanation of the what and why of different parts of the ESDL language
-* [How to use ESDL](how-to-use-esdl.md): Explanation of how to use ESDL, practical tips, example ESDL models
+* [How to use ESDL](how-to-use-esdl/README.md): Explanation of how to use ESDL, practical tips, example ESDL models
 * [ESDL models and tools](esdl-based-tools/README.md): An overview of ESDL compatible models and tools
 * [ESDL related projects](projects/README.md): An overview of external projects we're involved in that relate to ESDL
 * [Software development with ESDL](software-development/README.md): Introduction to software programming using ESDL
