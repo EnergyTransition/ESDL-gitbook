@@ -30,5 +30,5 @@ ESDL supports the modelling of energy systems on detail levels such as: house, b
 
 An model of a possible future energy system of the island of Ameland, a small island in the north of the Netherlands, is depicted in Figure 1.
 
-![](../.gitbook/assets/example_energy_system.png)
+![](../Images/example_energy_system.png)
 
