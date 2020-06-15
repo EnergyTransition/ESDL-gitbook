@@ -28,7 +28,8 @@ ESDL supports the modelling of energy systems on detail levels such as: house, b
 
 ## Example of modelling with energy capabilities
 
-An model of a possible future energy system of the island of Ameland, a small island in the north of the Netherlands, is depicted in Figure 1.
+An model of a possible hybrid energy system, with carriers electricity, natural gas, hydrogen and heat, that can be described with ESDL, is depicted in Figure 1.
 
 ![](../Images/example_energy_system.png)
+
 
