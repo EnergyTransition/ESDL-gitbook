@@ -22,7 +22,7 @@ ESDL is licensed under the Apache 2.0 license, a permissive free software licens
 
 ### ESDL projects and applications
 
-ESDL is used in many internal TNO projects each with a different focus. Several applications, tooling and simulation models have been developped during the last few months. More and more external projects with partners start using it. To get an impression of the possibilities have a look at [this page](examples/)
+ESDL is used in many internal TNO projects each with a different focus. Several applications, tooling and simulation models have been developped during the last few months. More and more external projects with partners start using it. To get an impression of the possibilities have a look at [this page](esdl-based-tools/README.md) for tooling and [this page](projects/README.md) for projects
 
 # ESDL Documentation
 
