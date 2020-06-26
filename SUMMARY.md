@@ -35,6 +35,8 @@
     * [Energy System Simulator (ESSIM)](esdl-based-tools/essim.md)
     * [Energy Data Repository (EDR)](esdl-based-tools/energy-data-repository.md)
 * [ESDL related projects](projects/README.md)
+    * [Warming Up](projects/warming_up.md)
+	* [Mondaine](projects/mondaine.md)
 * [Software development with ESDL](software-development/README.md)
     * [Integration with Java](software-development/code-generation-java.md)
     * [Integration with Python and pyEcore](software-development/integration-with-python-and-pyecore.md)
