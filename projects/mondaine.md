@@ -17,6 +17,7 @@ More information:
 ## Mondaine demo at the November 2019 symposium
 
 The following youtube video shows the status of the model integration during the symposium in November 2019.
+
 [![](https://img.youtube.com/vi/pK88X1HuCrg/0.jpg)](https://youtu.be/pK88X1HuCrg)
 
 What you will see is a step-by-step process as visualised in the below picture.
