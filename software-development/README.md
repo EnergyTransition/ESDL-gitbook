@@ -11,6 +11,8 @@ Click [here](integration-with-python-and-pyecore.md) to see detailed instruction
 ### Jupyter Notebook ESDL Tutorial
 Click [here](https://github.com/EnergyTransition/ESDL-PyEcore-Tutorial/blob/master/ESDLTutorials.ipynb) to find a Jupyter Notebook based tutorial to learn how to use ESDL in python (using PyEcore)
 
+## .NET
+Using the ECoreNetto library ([link](https://github.com/RHEAGROUP/EcoreNetto)) you can use the ESDL ECore model in dotnet applications.
 
 ## Others (javascript, typescript, ...)
 An alternative is using the generated XML-Schema to integrate with non-Java-based programming languages. When code is generated, it automatically creates this XML-schema called `esdlXML.xsd`. Other export options are also available, as EMF stores its models in XMI \(XML Metadata Interchange\):
