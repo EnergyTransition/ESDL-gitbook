@@ -7,7 +7,7 @@ description: >-
 
 ESDL MapEditor and the ESDL based Energy System Simulator (ESSIM) are available as open source under the Apache 2.0 license.
 
-![Toolsuite GUI impression](Images/toolsuite-gui-impression.png)
+![Toolsuite GUI impression](./Images/toolsuite-gui-impression.png)
 
 See [here](https://github.com/ESDLMapEditorESSIM/docker-toolsuite) if you'd like to know how to install this software stack on your local infrastructure
 
