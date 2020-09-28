@@ -127,7 +127,7 @@ if __name__ == '__main__':
 ## Using the generated classes to create ESDL
 
 To have the Python classes available offline and use auto-completion in your favorite Python Editor, PyEcoreGen can be used to generate the ESDL-classes from the `esdl.ecore` model. On the command line do the following:  
-`$ pyecoregen -e https://raw.githubusercontent.com/EnergyTransition/ESDL/master/esdl/model/esdl.ecore -o .`
+`$ pyecoregen -e https://raw.githubusercontent.com/EnergyTransition/ESDL/master/esdl/model/esdl.ecore -o . --auto-register-package`
 
 This creates an `esdl/`folder and and `esdl.py` that contain all the classes from the ESDL model. More information about pyEcoreGen can be found [here](https://github.com/pyecore/pyecoregen).
 
