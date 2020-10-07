@@ -56,15 +56,15 @@ def main():
     es = esdl.EnergySystem(name="Test energy system")
     es.instance.append( esdl.Instance(name="My new instance"))
     es.instance[0].area = esdl.Area(name="My area")
-    pvparc = esdl.PVParc(name="PV parc")
+    pvpark = esdl.PVPark(name="PV park")
     ed = esdl.ElectricityDemand(name="E demand")
-    es.instance[0].area.asset.append(pvparc)
+    es.instance[0].area.asset.append(pvpark)
     es.instance[0].area.asset.append(ed)
     inPort = esdl.InPort(id='inPort1')
     ed.port.append(inPort)
     outPort = esdl.OutPort(id='outPort1')
     outPort.connectedTo.append(inPort)
-    pvparc.port.append(outPort)
+    pvpark.port.append(outPort)
     
     print("Energy system(name={}), {}".format(es.name, dir(es))) 
     print("OutPort connectedTo: {}".format(outPort.connectedTo))
@@ -242,18 +242,18 @@ def main():
    instance.aggrType = AggrTypeEnum.PER_COMMODITY
    es.instance.append( instance )
    es.instance[0].area = Area(name="test area")
-   pvparc = PVParc(name="PV parc")
-   pvparc.numberOfPanels = 10
+   pvpark = PVPark(name="PV park")
+   pvpark.numberOfPanels = 10
    # Use datatime to set dates and times
    now = datetime.datetime.now()
-   pvparc.commissioningDate = now
+   pvpark.commissioningDate = now
    ed = ElectricityDemand(name="E demand")
-   es.instance[0].area.asset.append(pvparc)
+   es.instance[0].area.asset.append(pvpark)
    es.instance[0].area.asset.append(ed)
    inPort = InPort(id='InPort1')
    ed.port.append(inPort)
    outPort = OutPort(id='OutPort1', connectedTo=[inPort])
-   pvparc.port.append(outPort)
+   pvpark.port.append(outPort)
       
    print("Energy system: {}".format(attr_to_dict(es))) 
    print("OutPort connectedTo: {}".format(outPort.connectedTo))
