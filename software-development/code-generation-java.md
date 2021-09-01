@@ -1,38 +1,94 @@
 # Integration with Java
 
-There are two ways to integrate with Java-based technology:
+There are a few ways to integrate with Java-based technology and obtain the ESDL Java source code. This can be obtained manually using option 1, but we also provide a external maven repository and maven tools to generate the source code on the command line.
 
-1. **Use the Eclipse platform** This is currently used for the Edit, Editor and Designer plugins: they are Eclipse plugins that leverage the feature-rich Eclipse platform. Explaining how to do this can be read elsewhere on the internet. Options include using [Sirius ](https://www.eclipse.org/sirius/overview.html)to create the Designer plugin, using [EMF Forms](https://www.eclipse.org/ecp/emfforms/) to create attractive UIs to edit model instances, or creating a stand-alone ESDL-based application using [Eclipse RCP](https://wiki.eclipse.org/Rich_Client_Platform).
-2. **Use the main EMF-jars in your stand-alone Java application**  
-   If you extract the main EMF-jar files from the EMF plugins or use the Maven repo to download these dependencies into your Maven-project. You require the following EMF-jars:
 
-   ```text
-   org.eclipse.emf.common_2.14.0.v20xxyyzz.jar
-   org.eclipse.emf.ecore_2.14.0.v20xxyyzz.jar
-   org.eclipse.emf.ecore.xmi_2.14.0.v20xxyyzz.jar
+
+    
+### 1. Use our maven repository
+- Add the following repository entry to your `pom.xml` file:
+   ```xml
+    <repository>
+           <id>hesi-releases</id>
+           <name>HESI release artifactory</name>
+           <url>https://ci.hesi.energy/artifactory/libs-release-local</url>
+           <snapshots>
+                 <enabled>false</enabled>
+           </snapshots>
+           <releases>
+                 <enabled>true</enabled>
+           </releases>
+    </repository>
+    ```
+- You can then add the ESDL dependencies like so again in the pom.xml file:
+   ```xml 
+    <dependency>
+           <groupId>nl.tno.esdl</groupId>
+           <artifactId>esdl</artifactId>
+           <version>2.21.6</version>
+    </dependency>
    ```
 
-The maven repo is currenly a little behind the lastest EMF-versions, but you need the following dependencies in your `pom.xml`:
+**Add the required EMF dependencies**  
+You need the following dependencies in your `pom.xml` when using EMF-based ESDL:
 
-```markup
-        <dependency>
-                <groupId>org.eclipse.emf</groupId>
-                <artifactId>org.eclipse.emf.ecore</artifactId>
-                <version>2.12.0</version>
-        </dependency>
-        <dependency>
-                <groupId>org.eclipse.emf</groupId>
-                <artifactId>org.eclipse.emf.common</artifactId>
-                <version>2.12.0</version>
-        </dependency>
-        <dependency>
-                <groupId>org.eclipse.emf</groupId>
-                <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
-                <version>2.12.0</version>
-        </dependency>
+```xml
+<dependency>
+       <groupId>org.eclipse.emf</groupId>
+       <artifactId>org.eclipse.emf.ecore</artifactId>
+       <version>2.25.0</version>
+</dependency>
+<dependency>
+       <groupId>org.eclipse.emf</groupId>
+       <artifactId>org.eclipse.emf.common</artifactId>
+       <version>2.23.0</version>
+</dependency>
+<dependency>
+       <groupId>org.eclipse.emf</groupId>
+       <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+       <version>2.16.0</version>
+</dependency>
 ```
 
+You can also manually extract the main EMF-jar files from your local P2 Eclipse repository and add them to your classpath. You require the following EMF-jars:
+
+   ```text
+   org.eclipse.emf.common_2.23.0.v21xxyyzz.jar
+   org.eclipse.emf.ecore_2.25.0.v21xxyyzz.jar
+   org.eclipse.emf.ecore.xmi_2.16.0.v21xxyyzz.jar
+   ```
 If these dependencies are added to your application, ESDL can be used in the Java code.
+
+### 2. Command line code generation
+    
+ - Clone the https://github.com/EnergyTransition/ESDL.git repository locally.
+     Then execute: 
+  ```bash
+  mvn -f ESDL/esdl.parent/pom.xml install -pl ../esdl.buildtools -am
+  mvn -f ESDL/esdl.parent/pom.xml generate-sources
+  ```
+   (Optional) If you want to be able to extend the ESDLPackage to create your own implementations for the ESDL classes, please manually add this constructor definition…
+
+   ```java
+   protected EsdlPackageImpl(String ensUri, EsdlFactory einstance) {
+      super(ensUri, einstance);
+   }
+   ```
+   … to the `EsdlPackageImpl.java` class in `ESDL/esdl/src-gen/esdl/impl/EsdlPackageImpl.java`
+
+ - You can then add the folder ESDL/esdl/src-gen to the build path of your code in your IDE.
+ - Don't forget to add the EMF dependencies mentioned above.
+
+### 3. Use the Eclipse platform for code generation (and application creation)
+When loading the ESDL project into Eclipse, you can right-click the `esdl.genmodel` file to generate the ESDL model Java code. Then use this project in other Eclipse based plugins.
+
+This is currently used for the Edit, Editor and Designer plugins: they are Eclipse plugins that leverage the feature-rich Eclipse platform. Explaining how to do this can be read elsewhere on the internet. Options include using [Sirius ](https://www.eclipse.org/sirius/overview.html)to create the Designer plugin, using [EMF Forms](https://www.eclipse.org/ecp/emfforms/) to create attractive UIs to edit model instances, or creating a stand-alone ESDL-based application using [Eclipse RCP](https://wiki.eclipse.org/Rich_Client_Platform).
+
+_Note: this approach is outdated now and hasn't been tested recently, we mostly create stand-alone Java applications outside of the Eclipse environment using the maven repository and dependencies._
+
+
+   
+# Examples
 
 E.g. creating an Energy System with an Area programmatically:
 
